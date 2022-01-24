@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-24T05:02:56.934Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="pzfgoQDErceYDiAyULER" version="15.9.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-24T05:04:11.709Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="KFyL_FMS9yVvxVcWUC_G" version="15.9.4" type="github">
   <diagram id="ina5q-MMzBwLPQNnRXQV" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -110,6 +110,12 @@
         </mxCell>
         <mxCell id="_j4ldURv0qFXSPAYDD44-57" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;direction=north;" vertex="1" parent="1">
           <mxGeometry x="301" y="540" width="439" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_j4ldURv0qFXSPAYDD44-60" value="所有线程共享数据区" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="560" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_j4ldURv0qFXSPAYDD44-61" value="线程之间私有数据区" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="460.5" y="560" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
