@@ -1,17 +1,59 @@
-<mxfile host="app.diagrams.net" modified="2022-01-24T04:01:24.066Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="CHLYCOzEKq5M6oUdJJ_q" version="15.9.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-24T04:34:51.767Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="rgrj4UhbTlLAiHi0o-H0" version="15.9.4" type="github">
   <diagram id="ina5q-MMzBwLPQNnRXQV" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="_j4ldURv0qFXSPAYDD44-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="10" width="440" height="230" as="geometry" />
+        </mxCell>
         <mxCell id="_j4ldURv0qFXSPAYDD44-1" value="Java" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
           <mxGeometry x="30" y="50" width="80" height="100" as="geometry" />
         </mxCell>
         <mxCell id="_j4ldURv0qFXSPAYDD44-2" value="Class" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
-          <mxGeometry x="230" y="50" width="80" height="100" as="geometry" />
+          <mxGeometry x="200" y="50" width="80" height="100" as="geometry" />
         </mxCell>
         <mxCell id="_j4ldURv0qFXSPAYDD44-4" value="Compile" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;" vertex="1" parent="1">
-          <mxGeometry x="110" y="70" width="120" height="70" as="geometry" />
+          <mxGeometry x="110" y="70" width="90" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="_j4ldURv0qFXSPAYDD44-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="375" y="42.5" width="115" height="157.5" as="geometry" />
+        </mxCell>
+        <mxCell id="_j4ldURv0qFXSPAYDD44-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="515" y="45" width="115" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="_j4ldURv0qFXSPAYDD44-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="70" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_j4ldURv0qFXSPAYDD44-9" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="70" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_j4ldURv0qFXSPAYDD44-10" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="110" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_j4ldURv0qFXSPAYDD44-11" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="155" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_j4ldURv0qFXSPAYDD44-12" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="70" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_j4ldURv0qFXSPAYDD44-13" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="110" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_j4ldURv0qFXSPAYDD44-14" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="155" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_j4ldURv0qFXSPAYDD44-19" value="Linking" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="545" y="42.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_j4ldURv0qFXSPAYDD44-20" value="类加载子系统 Class Loader SubSystem" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="470" y="10" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_j4ldURv0qFXSPAYDD44-22" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="85" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_j4ldURv0qFXSPAYDD44-23" value="Loading" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="42.5" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
