@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-25T10:01:18.591Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="sjK9gEobOdFPptohDC7L" version="15.9.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-25T10:04:35.010Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="6Qi5XWQnYmfce0CMZwbg" version="15.9.4" type="github">
   <diagram id="2agMQH7edlITYelNsUCE" name="第 1 页">
     <mxGraphModel dx="2249" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -82,10 +82,10 @@
         <mxCell id="tHqurKd3f86wDbEin29t-34" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="-280" y="620" width="170" height="350" as="geometry" />
         </mxCell>
-        <mxCell id="tHqurKd3f86wDbEin29t-35" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="tHqurKd3f86wDbEin29t-35" value="Young区&lt;br&gt;新生代" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="-260" y="680" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tHqurKd3f86wDbEin29t-36" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="tHqurKd3f86wDbEin29t-36" value="Old区&lt;br&gt;老年代" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="-260" y="800" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="tHqurKd3f86wDbEin29t-37" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
@@ -97,28 +97,28 @@
         <mxCell id="tHqurKd3f86wDbEin29t-39" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="460" y="620" width="140" height="360" as="geometry" />
         </mxCell>
-        <mxCell id="tHqurKd3f86wDbEin29t-40" value="" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="tHqurKd3f86wDbEin29t-40" value="类元信息" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="-50" y="640" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="tHqurKd3f86wDbEin29t-41" value="" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="tHqurKd3f86wDbEin29t-41" value="方法元信息" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="-50" y="680" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="tHqurKd3f86wDbEin29t-42" value="" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="tHqurKd3f86wDbEin29t-42" value="运行时常量池" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="-50" y="770" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="tHqurKd3f86wDbEin29t-43" value="" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="tHqurKd3f86wDbEin29t-43" value="String constants" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="-50" y="800" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="tHqurKd3f86wDbEin29t-44" value="" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="tHqurKd3f86wDbEin29t-44" value="numberic constants" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="-50" y="830" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="tHqurKd3f86wDbEin29t-45" value="" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="tHqurKd3f86wDbEin29t-45" value="class references" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="-50" y="860" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="tHqurKd3f86wDbEin29t-46" value="" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="tHqurKd3f86wDbEin29t-46" value="field references" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="-50" y="890" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="tHqurKd3f86wDbEin29t-47" value="" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="tHqurKd3f86wDbEin29t-47" value="method references" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="-50" y="920" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tHqurKd3f86wDbEin29t-48" value="局部变量表" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
