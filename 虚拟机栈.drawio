@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-25T05:33:59.163Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="BY3PbMrFbFyO64poNs1v" version="15.9.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-25T05:35:07.216Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="0a5Ixqi20PCjkp0WIXcO" version="15.9.4" type="github">
   <diagram id="2agMQH7edlITYelNsUCE" name="第 1 页">
     <mxGraphModel dx="2249" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -35,7 +35,7 @@
           <mxGeometry x="420" y="350" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="tHqurKd3f86wDbEin29t-18" value="虚拟机栈（JVM Stack）" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
-          <mxGeometry x="340" y="90" width="100" height="40" as="geometry" />
+          <mxGeometry x="230" y="90" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="tHqurKd3f86wDbEin29t-19" value="放大结构" style="endArrow=classic;html=1;rounded=0;fontColor=#000000;entryX=-0.028;entryY=0.112;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="tHqurKd3f86wDbEin29t-11">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
