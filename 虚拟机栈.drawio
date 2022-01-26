@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-26T01:04:35.686Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="HKRh9LfvwW7ELinabFAF" version="15.9.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-26T01:06:11.020Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="ecdg8CzDewsTJIDRQNQu" version="15.9.4" type="github">
   <diagram id="2agMQH7edlITYelNsUCE" name="第 1 页">
     <mxGraphModel dx="2249" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -175,7 +175,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="tHqurKd3f86wDbEin29t-67" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="-306" y="1190" width="936" height="370" as="geometry" />
+          <mxGeometry x="-306" y="1190" width="936" height="270" as="geometry" />
         </mxCell>
         <mxCell id="tHqurKd3f86wDbEin29t-68" value="Eden" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="-260" y="1270" width="220" height="120" as="geometry" />
@@ -194,6 +194,33 @@
         </mxCell>
         <mxCell id="tHqurKd3f86wDbEin29t-73" value="堆空间" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="91" y="1210" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tHqurKd3f86wDbEin29t-77" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-290" y="1500" width="770" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="tHqurKd3f86wDbEin29t-78" value="Eden" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-244" y="1580" width="220" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="tHqurKd3f86wDbEin29t-79" value="From&lt;br&gt;Survivor&lt;br&gt;&lt;br&gt;S0" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-24" y="1580" width="130" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="tHqurKd3f86wDbEin29t-80" value="To&lt;br&gt;Survivor&lt;br&gt;&lt;br&gt;S1" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="107" y="1580" width="130" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="tHqurKd3f86wDbEin29t-81" value="Old Memory" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="236" y="1580" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="tHqurKd3f86wDbEin29t-83" value="堆空间" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="110" y="1520" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tHqurKd3f86wDbEin29t-84" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="510" y="1500" width="300" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="tHqurKd3f86wDbEin29t-85" value="Meta" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="600" y="1605" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tHqurKd3f86wDbEin29t-86" value="本地内存" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="600" y="1520" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
