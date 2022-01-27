@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-27T04:34:34.824Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="UiToBknafpJnT42BYh81" version="15.9.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-27T04:38:46.755Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="LnRdmTd-aU6LEHxWVzRH" version="15.9.4" type="github">
   <diagram id="2agMQH7edlITYelNsUCE" name="第 1 页">
     <mxGraphModel dx="2249" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -230,6 +230,27 @@
         </mxCell>
         <mxCell id="tHqurKd3f86wDbEin29t-89" value="线程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="500" y="585" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tHqurKd3f86wDbEin29t-102" value="Eden（8）" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
+          <mxGeometry x="-204" y="2230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tHqurKd3f86wDbEin29t-103" value="S0(1)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+          <mxGeometry x="-84" y="2230" width="94" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tHqurKd3f86wDbEin29t-104" value="S1(1)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+          <mxGeometry x="10" y="2230" width="94" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tHqurKd3f86wDbEin29t-105" value="年轻代" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#000000;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-204" y="2200" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tHqurKd3f86wDbEin29t-106" value="Old Memory" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="2350" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tHqurKd3f86wDbEin29t-107" value="老年代" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#000000;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-200" y="2320" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tHqurKd3f86wDbEin29t-108" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;open sans&amp;quot;, &amp;quot;clear sans&amp;quot;, &amp;quot;helvetica neue&amp;quot;, helvetica, arial, &amp;quot;segoe ui emoji&amp;quot;, sans-serif; background-color: rgb(255, 255, 255); font-size: 14px;&quot;&gt;默认内存分配比例是8:1:1&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-150" y="2200" width="240" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
