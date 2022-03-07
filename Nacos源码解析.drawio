@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-07T05:30:34.163Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="KNKg9I-KvyGxtcn7jQI2" version="16.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-07T05:34:26.276Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="DwdfH5nyUpqlhEyrRHWL" version="16.5.6" type="github">
   <diagram id="AB8aLDAtlRgpEcZsJVLx" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -184,8 +184,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2w30Hlw0sIKCpYPZPKEo-58" value="&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;open sans&amp;#34; , &amp;#34;clear sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , &amp;#34;segoe ui emoji&amp;#34; , sans-serif ; font-size: 16px&quot;&gt;serverProxy.sendBeat(beatInfo）&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=13;strokeColor=#000000;rounded=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="1210" y="460" width="265.25" height="60" as="geometry" />
+        <mxCell id="2w30Hlw0sIKCpYPZPKEo-58" value="&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;open sans&amp;#34; , &amp;#34;clear sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , &amp;#34;segoe ui emoji&amp;#34; , sans-serif ; font-size: 16px&quot;&gt;serverProxy.sendBeat&lt;br&gt;(beatInfo）&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=13;strokeColor=#000000;rounded=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="460" width="230" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2w30Hlw0sIKCpYPZPKEo-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="2w30Hlw0sIKCpYPZPKEo-60" target="2w30Hlw0sIKCpYPZPKEo-71">
           <mxGeometry relative="1" as="geometry">
@@ -224,7 +224,7 @@
           <mxGeometry x="1846.5" y="360" width="177" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2w30Hlw0sIKCpYPZPKEo-71" value="InstanceController.register" style="whiteSpace=wrap;html=1;fontSize=13;strokeColor=#000000;rounded=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="2090" y="350" width="180" height="50" as="geometry" />
+          <mxGeometry x="2090" y="355" width="180" height="50" as="geometry" />
         </mxCell>
         <mxCell id="2w30Hlw0sIKCpYPZPKEo-77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="1" source="2w30Hlw0sIKCpYPZPKEo-73" target="2w30Hlw0sIKCpYPZPKEo-76">
           <mxGeometry relative="1" as="geometry" />
