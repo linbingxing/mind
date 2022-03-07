@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-07T05:34:26.276Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="DwdfH5nyUpqlhEyrRHWL" version="16.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-07T05:44:22.495Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="qBEFwCD6P-DruZJZ_3my" version="16.5.6" type="github">
   <diagram id="AB8aLDAtlRgpEcZsJVLx" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -223,6 +223,9 @@
         <mxCell id="2w30Hlw0sIKCpYPZPKEo-69" value="InstanceController.beat" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontSize=13;strokeColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="1846.5" y="360" width="177" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="2w30Hlw0sIKCpYPZPKEo-97" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="2w30Hlw0sIKCpYPZPKEo-71" target="2w30Hlw0sIKCpYPZPKEo-96">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="2w30Hlw0sIKCpYPZPKEo-71" value="InstanceController.register" style="whiteSpace=wrap;html=1;fontSize=13;strokeColor=#000000;rounded=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="2090" y="355" width="180" height="50" as="geometry" />
         </mxCell>
@@ -252,6 +255,26 @@
         </mxCell>
         <mxCell id="2w30Hlw0sIKCpYPZPKEo-93" value="修改最后使用时间与健康状态&lt;br&gt;instance.setLastBeat()&lt;br&gt;instance.setHealthy(true)" style="whiteSpace=wrap;html=1;fontSize=13;strokeColor=#000000;rounded=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="1840" y="780" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2w30Hlw0sIKCpYPZPKEo-99" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="2w30Hlw0sIKCpYPZPKEo-96" target="2w30Hlw0sIKCpYPZPKEo-98">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2200" y="590" />
+              <mxPoint x="2200" y="590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2w30Hlw0sIKCpYPZPKEo-96" value="serviceManager.registerInstance" style="whiteSpace=wrap;html=1;fontSize=13;strokeColor=#000000;rounded=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="2110" y="455" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2w30Hlw0sIKCpYPZPKEo-101" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="2w30Hlw0sIKCpYPZPKEo-98" target="2w30Hlw0sIKCpYPZPKEo-100">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2w30Hlw0sIKCpYPZPKEo-98" value="&amp;nbsp;创建空服务&lt;br&gt;serviceManager.&lt;br&gt;createEmptyService" style="whiteSpace=wrap;html=1;fontSize=13;strokeColor=#000000;rounded=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="2160" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2w30Hlw0sIKCpYPZPKEo-100" value="将注册实例添加到对应服务service的实例列表中&lt;br&gt;addInstance(namespaceId, serviceName, instance.isEphemeral(), instance)" style="whiteSpace=wrap;html=1;fontSize=13;strokeColor=#000000;rounded=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="2130" y="680" width="180" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
