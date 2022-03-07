@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-07T05:44:22.495Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="qBEFwCD6P-DruZJZ_3my" version="16.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-07T06:03:48.410Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="FPlIt49vPozZ2CPX7hoJ" version="16.5.6" type="github">
   <diagram id="AB8aLDAtlRgpEcZsJVLx" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -273,8 +273,26 @@
         <mxCell id="2w30Hlw0sIKCpYPZPKEo-98" value="&amp;nbsp;创建空服务&lt;br&gt;serviceManager.&lt;br&gt;createEmptyService" style="whiteSpace=wrap;html=1;fontSize=13;strokeColor=#000000;rounded=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="2160" y="580" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="2w30Hlw0sIKCpYPZPKEo-104" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="2w30Hlw0sIKCpYPZPKEo-100" target="2w30Hlw0sIKCpYPZPKEo-103">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="2w30Hlw0sIKCpYPZPKEo-100" value="将注册实例添加到对应服务service的实例列表中&lt;br&gt;addInstance(namespaceId, serviceName, instance.isEphemeral(), instance)" style="whiteSpace=wrap;html=1;fontSize=13;strokeColor=#000000;rounded=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="2130" y="680" width="180" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="2w30Hlw0sIKCpYPZPKEo-106" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="2w30Hlw0sIKCpYPZPKEo-103" target="2w30Hlw0sIKCpYPZPKEo-105">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2w30Hlw0sIKCpYPZPKEo-103" value="将service对应的全量实例instances写入内存注册表&lt;br&gt;&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;open sans&amp;#34; , &amp;#34;clear sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , &amp;#34;segoe ui emoji&amp;#34; , sans-serif&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;consistencyService.put(key, instances)&lt;/font&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=13;strokeColor=#000000;rounded=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="2125" y="830" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="2w30Hlw0sIKCpYPZPKEo-108" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="2w30Hlw0sIKCpYPZPKEo-105" target="2w30Hlw0sIKCpYPZPKEo-107">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2w30Hlw0sIKCpYPZPKEo-105" value="DelegateConsistencyServiceImpl&lt;br&gt;.put()" style="whiteSpace=wrap;html=1;fontSize=12;strokeColor=#000000;rounded=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="2120" y="960" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2w30Hlw0sIKCpYPZPKEo-107" value="&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;open sans&amp;#34; , &amp;#34;clear sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , &amp;#34;segoe ui emoji&amp;#34; , sans-serif ; font-size: 16px&quot;&gt;mapConsistencyService(key)&lt;/span&gt;" style="whiteSpace=wrap;html=1;strokeColor=#000000;rounded=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="2105" y="1050" width="230" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
