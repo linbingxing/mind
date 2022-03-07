@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-07T10:25:41.205Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="gJaF2eAHQBnU99ORwcZT" version="16.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-07T11:01:16.783Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="hW9MREZvSYF9dC7v2_Ro" version="16.5.6" type="github">
   <diagram id="AB8aLDAtlRgpEcZsJVLx" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -269,6 +269,14 @@
         </mxCell>
         <mxCell id="2w30Hlw0sIKCpYPZPKEo-101" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="2w30Hlw0sIKCpYPZPKEo-98" target="2w30Hlw0sIKCpYPZPKEo-100">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2w30Hlw0sIKCpYPZPKEo-241" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="2w30Hlw0sIKCpYPZPKEo-98" target="2w30Hlw0sIKCpYPZPKEo-240">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2w30Hlw0sIKCpYPZPKEo-242" value="添加并初始化服务" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="2w30Hlw0sIKCpYPZPKEo-241">
+          <mxGeometry x="-0.2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="2w30Hlw0sIKCpYPZPKEo-98" value="&amp;nbsp;创建空服务&lt;br&gt;serviceManager.&lt;br&gt;createEmptyService" style="whiteSpace=wrap;html=1;fontSize=13;strokeColor=#000000;rounded=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="2160" y="580" width="120" height="60" as="geometry" />
@@ -728,6 +736,79 @@
         </mxCell>
         <mxCell id="2w30Hlw0sIKCpYPZPKEo-237" value="/raft/datum/commit" style="whiteSpace=wrap;html=1;strokeColor=#000000;rounded=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="1530" y="1950" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2w30Hlw0sIKCpYPZPKEo-244" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="2w30Hlw0sIKCpYPZPKEo-240" target="2w30Hlw0sIKCpYPZPKEo-243">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2w30Hlw0sIKCpYPZPKEo-246" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="2w30Hlw0sIKCpYPZPKEo-240" target="2w30Hlw0sIKCpYPZPKEo-245">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2w30Hlw0sIKCpYPZPKEo-240" value="putServiceAndInit(service)" style="whiteSpace=wrap;html=1;fontSize=13;strokeColor=#000000;rounded=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="2480" y="580" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2w30Hlw0sIKCpYPZPKEo-248" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="2w30Hlw0sIKCpYPZPKEo-243" target="2w30Hlw0sIKCpYPZPKEo-247">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2w30Hlw0sIKCpYPZPKEo-243" value="putService(service)" style="whiteSpace=wrap;html=1;fontSize=13;strokeColor=#000000;rounded=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="2786.25" y="530" width="123.75" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2w30Hlw0sIKCpYPZPKEo-250" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="2w30Hlw0sIKCpYPZPKEo-245" target="2w30Hlw0sIKCpYPZPKEo-249">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2w30Hlw0sIKCpYPZPKEo-245" value="service.init()" style="whiteSpace=wrap;html=1;fontSize=13;strokeColor=#000000;rounded=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="2786.25" y="640" width="113.75" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2w30Hlw0sIKCpYPZPKEo-247" value="Map&amp;lt;String, Map&amp;lt;String, Service&amp;gt;&amp;gt; serviceMap&lt;br&gt;格式：Map(namespace, Map(group::serviceName, Service))" style="whiteSpace=wrap;html=1;fontSize=13;strokeColor=#000000;rounded=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="3000" y="525" width="380" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2w30Hlw0sIKCpYPZPKEo-252" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="2w30Hlw0sIKCpYPZPKEo-249" target="2w30Hlw0sIKCpYPZPKEo-251">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2w30Hlw0sIKCpYPZPKEo-249" value="HealthCheckReactor.scheduleCheck(clientBeatCheckTask)" style="whiteSpace=wrap;html=1;fontSize=13;strokeColor=#000000;rounded=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="3000" y="630" width="373.13" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2w30Hlw0sIKCpYPZPKEo-254" value="run方法" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="2w30Hlw0sIKCpYPZPKEo-251" target="2w30Hlw0sIKCpYPZPKEo-253">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2w30Hlw0sIKCpYPZPKEo-251" value="执行心跳任务ClientBeatCheckTask" style="whiteSpace=wrap;html=1;fontSize=13;strokeColor=#000000;rounded=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="3114.8500000000004" y="770" width="143.43" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="2w30Hlw0sIKCpYPZPKEo-259" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="2w30Hlw0sIKCpYPZPKEo-253" target="2w30Hlw0sIKCpYPZPKEo-258">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2w30Hlw0sIKCpYPZPKEo-261" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="2w30Hlw0sIKCpYPZPKEo-253" target="2w30Hlw0sIKCpYPZPKEo-260">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2w30Hlw0sIKCpYPZPKEo-263" value="获取所有实例" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="2w30Hlw0sIKCpYPZPKEo-261">
+          <mxGeometry x="-0.0917" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2w30Hlw0sIKCpYPZPKEo-253" value="getDistroMapper()&lt;br&gt;.responsible(service.getName())" style="whiteSpace=wrap;html=1;fontSize=13;strokeColor=#000000;rounded=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="3400" y="775" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2w30Hlw0sIKCpYPZPKEo-258" value="int target = distroHash(serviceName) % servers.size()&lt;br&gt;用服务名称hash后&lt;br&gt;对机器数取模，选择集群里的一台机器执行任务" style="whiteSpace=wrap;html=1;fontSize=13;strokeColor=#000000;rounded=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="3421.25" y="890" width="187.5" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="2w30Hlw0sIKCpYPZPKEo-265" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="2w30Hlw0sIKCpYPZPKEo-260" target="2w30Hlw0sIKCpYPZPKEo-264">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2w30Hlw0sIKCpYPZPKEo-266" value="循环遍历" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="2w30Hlw0sIKCpYPZPKEo-265">
+          <mxGeometry x="-0.6786" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2w30Hlw0sIKCpYPZPKEo-268" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="2w30Hlw0sIKCpYPZPKEo-260" target="2w30Hlw0sIKCpYPZPKEo-267">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2w30Hlw0sIKCpYPZPKEo-260" value="List&amp;lt;Instance&amp;gt; instances = service.allIPs(true)" style="whiteSpace=wrap;html=1;fontSize=13;strokeColor=#000000;rounded=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="3800" y="775" width="175" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2w30Hlw0sIKCpYPZPKEo-264" value="如果某个实例超过15秒没有收到心跳，则将它的healthy属性设置为false" style="whiteSpace=wrap;html=1;fontSize=13;strokeColor=#000000;rounded=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="4200" y="720" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2w30Hlw0sIKCpYPZPKEo-267" value="如果某个实例超过30秒没有收到心跳，直接剔除该实例" style="whiteSpace=wrap;html=1;fontSize=13;strokeColor=#000000;rounded=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="4200" y="830" width="230" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
