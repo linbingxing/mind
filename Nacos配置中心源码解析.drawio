@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-08T05:05:40.331Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="NbTfTYzRyUZUnZu9hBSP" version="16.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-08T05:29:16.045Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="sXR3H0Q5RCezhvEHBYrs" version="16.5.6" type="github">
   <diagram id="AEkYbbPtGk_L0vC9MOVH" name="第 1 页">
     <mxGraphModel dx="1422" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -8,7 +8,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gMyOnzurJYTI28C3glSG-1" value="入口" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="50" width="120" height="80" as="geometry" />
+          <mxGeometry x="115" y="55" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="gMyOnzurJYTI28C3glSG-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="gMyOnzurJYTI28C3glSG-2" target="gMyOnzurJYTI28C3glSG-6">
           <mxGeometry relative="1" as="geometry" />
@@ -18,14 +18,14 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gMyOnzurJYTI28C3glSG-2" value="加载spring.factories文件中NacosConfigBootstrapConfiguration配置类" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="50" y="170" width="260" height="60" as="geometry" />
+        <mxCell id="gMyOnzurJYTI28C3glSG-2" value="&lt;font style=&quot;font-size: 15px&quot;&gt;加载spring.factories文件中NacosConfigBootstrapConfiguration配置类&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="40" y="170" width="270" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gMyOnzurJYTI28C3glSG-6" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="440" y="60" width="20" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="gMyOnzurJYTI28C3glSG-10" value="NacosConfigProperties" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="465" y="75" width="170" height="30" as="geometry" />
+        <mxCell id="gMyOnzurJYTI28C3glSG-10" value="&lt;font style=&quot;font-size: 15px&quot;&gt;NacosConfigProperties&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="465" y="80" width="170" height="25" as="geometry" />
         </mxCell>
         <mxCell id="gMyOnzurJYTI28C3glSG-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;" edge="1" parent="1" source="gMyOnzurJYTI28C3glSG-12" target="gMyOnzurJYTI28C3glSG-17">
           <mxGeometry relative="1" as="geometry">
@@ -40,42 +40,42 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gMyOnzurJYTI28C3glSG-12" value="NacosConfigManager" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="gMyOnzurJYTI28C3glSG-12" value="&lt;font style=&quot;font-size: 15px&quot;&gt;NacosConfigManager&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="460" y="185" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="gMyOnzurJYTI28C3glSG-13" value="NacosPropertySourceLocator" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="460" y="320" width="170" height="30" as="geometry" />
+        <mxCell id="gMyOnzurJYTI28C3glSG-13" value="&lt;font style=&quot;font-size: 15px&quot;&gt;NacosPropertySourceLocator&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="460" y="320" width="220" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="gMyOnzurJYTI28C3glSG-14" value="&lt;font style=&quot;font-size: 13px&quot;&gt;加载nacos配置中心的配置信息&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="460" y="290" width="180" height="30" as="geometry" />
+        <mxCell id="gMyOnzurJYTI28C3glSG-14" value="&lt;font style=&quot;font-size: 15px&quot;&gt;加载nacos配置中心的配置信息&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="280" width="210" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="gMyOnzurJYTI28C3glSG-15" value="&lt;font style=&quot;font-size: 13px&quot;&gt;持有NacosConfigProperties&lt;br&gt;和ConfigService&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="414" y="150" width="260" height="30" as="geometry" />
+        <mxCell id="gMyOnzurJYTI28C3glSG-15" value="&lt;font style=&quot;font-size: 15px&quot;&gt;持有NacosConfigProperties&lt;br&gt;和ConfigService&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="150" width="260" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="gMyOnzurJYTI28C3glSG-16" value="&lt;font style=&quot;font-size: 13px&quot;&gt;属性配置类&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="gMyOnzurJYTI28C3glSG-16" value="&lt;font style=&quot;font-size: 15px&quot;&gt;属性配置类&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="465" y="40" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gMyOnzurJYTI28C3glSG-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="1" source="gMyOnzurJYTI28C3glSG-17" target="gMyOnzurJYTI28C3glSG-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gMyOnzurJYTI28C3glSG-17" value="&lt;font style=&quot;font-size: 18px&quot;&gt;NacosConfigManager.createConfigService&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="gMyOnzurJYTI28C3glSG-17" value="&lt;font style=&quot;font-size: 15px&quot;&gt;NacosConfigManager.createConfigService&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="900" y="-390" width="380" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gMyOnzurJYTI28C3glSG-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="1" source="gMyOnzurJYTI28C3glSG-19" target="gMyOnzurJYTI28C3glSG-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gMyOnzurJYTI28C3glSG-25" value="&lt;font style=&quot;font-size: 18px&quot;&gt;反射调用NacosConfigService构造器&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="gMyOnzurJYTI28C3glSG-24">
+        <mxCell id="gMyOnzurJYTI28C3glSG-25" value="&lt;font style=&quot;font-size: 15px&quot;&gt;反射调用NacosConfigService构造器&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="gMyOnzurJYTI28C3glSG-24">
           <mxGeometry x="-0.2286" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gMyOnzurJYTI28C3glSG-19" value="&lt;font style=&quot;font-size: 18px&quot;&gt;ConfigFactory.createConfigService&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="gMyOnzurJYTI28C3glSG-19" value="&lt;font style=&quot;font-size: 15px&quot;&gt;ConfigFactory.createConfigService&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="907.5" y="-320" width="365" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gMyOnzurJYTI28C3glSG-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="gMyOnzurJYTI28C3glSG-23" target="gMyOnzurJYTI28C3glSG-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gMyOnzurJYTI28C3glSG-46" value="客户端工作类" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;fontColor=#000000;" vertex="1" connectable="0" parent="gMyOnzurJYTI28C3glSG-27">
+        <mxCell id="gMyOnzurJYTI28C3glSG-46" value="&lt;font style=&quot;font-size: 15px&quot;&gt;客户端工作类&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;fontColor=#000000;" vertex="1" connectable="0" parent="gMyOnzurJYTI28C3glSG-27">
           <mxGeometry x="0.3849" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -83,32 +83,32 @@
         <mxCell id="gMyOnzurJYTI28C3glSG-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;fontColor=#000000;" edge="1" parent="1" source="gMyOnzurJYTI28C3glSG-23" target="gMyOnzurJYTI28C3glSG-28">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gMyOnzurJYTI28C3glSG-40" value="&lt;font style=&quot;font-size: 18px&quot;&gt;向nacos server发起请求的代理&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontColor=#000000;" vertex="1" connectable="0" parent="gMyOnzurJYTI28C3glSG-29">
+        <mxCell id="gMyOnzurJYTI28C3glSG-40" value="&lt;font style=&quot;font-size: 15px&quot;&gt;向nacos server发起请求的代理&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontColor=#000000;" vertex="1" connectable="0" parent="gMyOnzurJYTI28C3glSG-29">
           <mxGeometry x="0.2316" y="1" relative="1" as="geometry">
             <mxPoint x="-58" y="4" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gMyOnzurJYTI28C3glSG-23" value="&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34;&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;NacosConfigService(Properties properties)&lt;/font&gt;&lt;/span&gt;&lt;/pre&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="gMyOnzurJYTI28C3glSG-23" value="&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34;&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;NacosConfigService(Properties properties)&lt;/font&gt;&lt;/span&gt;&lt;/pre&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="880" y="-230" width="420" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gMyOnzurJYTI28C3glSG-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="gMyOnzurJYTI28C3glSG-26" target="gMyOnzurJYTI28C3glSG-42">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gMyOnzurJYTI28C3glSG-45" value="定时任务10分钟执行一次" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;fontColor=#000000;" vertex="1" connectable="0" parent="gMyOnzurJYTI28C3glSG-43">
+        <mxCell id="gMyOnzurJYTI28C3glSG-45" value="&lt;font style=&quot;font-size: 16px&quot;&gt;定时任务10分钟执行一次&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;fontColor=#000000;" vertex="1" connectable="0" parent="gMyOnzurJYTI28C3glSG-43">
           <mxGeometry x="-0.28" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gMyOnzurJYTI28C3glSG-26" value="&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34;&quot;&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;ClientWorker&lt;/font&gt;&lt;/pre&gt;" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="gMyOnzurJYTI28C3glSG-26" value="&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34;&quot;&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;ClientWorker&lt;/font&gt;&lt;/pre&gt;" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="1200" width="139" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="gMyOnzurJYTI28C3glSG-28" value="&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34;&quot;&gt;&lt;font style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 18px&quot;&gt;MetricsHttpAgent&lt;/font&gt;&lt;/pre&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="gMyOnzurJYTI28C3glSG-28" value="&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34;&quot;&gt;&lt;font style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 15px&quot;&gt;MetricsHttpAgent&lt;/font&gt;&lt;/pre&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="790" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gMyOnzurJYTI28C3glSG-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;fontColor=#000000;" edge="1" parent="1" source="gMyOnzurJYTI28C3glSG-42" target="gMyOnzurJYTI28C3glSG-47">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gMyOnzurJYTI28C3glSG-42" value="&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; ; font-size: 13.5pt&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;checkConfigInfo()&lt;/span&gt;&lt;/pre&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="gMyOnzurJYTI28C3glSG-42" value="&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34;&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;checkConfigInfo()&lt;/font&gt;&lt;/span&gt;&lt;/pre&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1164" y="135" width="211" height="45" as="geometry" />
         </mxCell>
         <mxCell id="gMyOnzurJYTI28C3glSG-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;fontColor=#000000;" edge="1" parent="1" source="gMyOnzurJYTI28C3glSG-47" target="gMyOnzurJYTI28C3glSG-51">
@@ -119,18 +119,18 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="gMyOnzurJYTI28C3glSG-53" value="客户端长轮询" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;fontColor=#000000;" vertex="1" connectable="0" parent="gMyOnzurJYTI28C3glSG-52">
+        <mxCell id="gMyOnzurJYTI28C3glSG-53" value="&lt;font style=&quot;font-size: 15px&quot;&gt;客户端长轮询&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;fontColor=#000000;" vertex="1" connectable="0" parent="gMyOnzurJYTI28C3glSG-52">
           <mxGeometry x="-0.2118" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gMyOnzurJYTI28C3glSG-47" value="&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; ; font-size: 13.5pt&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;executorService.execute(new &lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; ; font-size: 13.5pt&quot;&gt;LongPollingRunnable(i))&lt;/pre&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="gMyOnzurJYTI28C3glSG-47" value="&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; ; font-size: 15px&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;executorService.execute(new &lt;/font&gt;&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; ; font-size: 15px&quot;&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;LongPollingRunnable(i))&lt;/font&gt;&lt;/pre&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1074.5" y="242.5" width="390" height="77.5" as="geometry" />
         </mxCell>
-        <mxCell id="gMyOnzurJYTI28C3glSG-49" value="两个线程池：&lt;br&gt;1、只有一个线程的线程池，用来执行定时任务，每10分钟执行一次checkConfigInfo()&lt;br&gt;&amp;nbsp; 2、线程数等于处理器个数的线程池，用来执行ClientWorker.LongPollingRunnable.run&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=18;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="gMyOnzurJYTI28C3glSG-49" value="&lt;font style=&quot;font-size: 15px&quot;&gt;两个线程池：&lt;br&gt;1、只有一个线程的线程池，用来执行定时任务，每10分钟执行一次checkConfigInfo()&lt;br&gt;&amp;nbsp; 2、线程数等于处理器个数的线程池，用来执行ClientWorker.LongPollingRunnable.run&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=18;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="1380" y="-60" width="380" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="gMyOnzurJYTI28C3glSG-50" value="CacheMap中缓存需要刷新的配置，将Map中的数量以3000个分一个组，分别创建一个LongPollingRunnable用来监听配置更新" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=18;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="gMyOnzurJYTI28C3glSG-50" value="&lt;font style=&quot;font-size: 15px&quot;&gt;CacheMap中缓存需要刷新的配置，将Map中的数量以3000个分一个组，分别创建一个LongPollingRunnable用来监听配置更新&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=18;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="1412.5" y="112.5" width="315" height="90" as="geometry" />
         </mxCell>
         <mxCell id="gMyOnzurJYTI28C3glSG-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;fontColor=#000000;" edge="1" parent="1" source="gMyOnzurJYTI28C3glSG-51" target="gMyOnzurJYTI28C3glSG-54">
@@ -141,27 +141,27 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="gMyOnzurJYTI28C3glSG-56" value="检查本地的配置" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;fontColor=#000000;" vertex="1" connectable="0" parent="gMyOnzurJYTI28C3glSG-55">
+        <mxCell id="gMyOnzurJYTI28C3glSG-56" value="&lt;font style=&quot;font-size: 15px&quot;&gt;检查本地的配置&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;fontColor=#000000;" vertex="1" connectable="0" parent="gMyOnzurJYTI28C3glSG-55">
           <mxGeometry x="-0.1798" y="-3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gMyOnzurJYTI28C3glSG-51" value="&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; ; font-size: 13.5pt&quot;&gt;LongPollingRunnable.run&lt;/pre&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="gMyOnzurJYTI28C3glSG-51" value="&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34;&quot;&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;LongPollingRunnable.run&lt;/font&gt;&lt;/pre&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1134.5" y="380" width="270" height="51.25" as="geometry" />
         </mxCell>
         <mxCell id="gMyOnzurJYTI28C3glSG-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;fontColor=#000000;" edge="1" parent="1" source="gMyOnzurJYTI28C3glSG-54" target="gMyOnzurJYTI28C3glSG-57">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gMyOnzurJYTI28C3glSG-59" value="向Nacos Server发出一个长连接30s超时&lt;br&gt;返回Server有更新的dataIds" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;fontColor=#000000;" vertex="1" connectable="0" parent="gMyOnzurJYTI28C3glSG-58">
-          <mxGeometry x="0.3" y="1" relative="1" as="geometry">
-            <mxPoint x="6" y="-24" as="offset" />
+        <mxCell id="gMyOnzurJYTI28C3glSG-61" value="&lt;font style=&quot;font-size: 15px&quot;&gt;向Nacos Server发出一个长连接30s超时&lt;br&gt;返回Server有更新的dataIds&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;fontColor=#000000;" vertex="1" connectable="0" parent="gMyOnzurJYTI28C3glSG-58">
+          <mxGeometry x="0.168" y="1" relative="1" as="geometry">
+            <mxPoint x="6" y="-6" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gMyOnzurJYTI28C3glSG-54" value="&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; ; font-size: 13.5pt&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;checkLocalConfig(cacheData)&lt;/span&gt;&lt;/pre&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="gMyOnzurJYTI28C3glSG-54" value="&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34;&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;checkLocalConfig(cacheData)&lt;/font&gt;&lt;/span&gt;&lt;/pre&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1133" y="510" width="279.5" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gMyOnzurJYTI28C3glSG-57" value="&lt;p style=&quot;line-height: 0&quot;&gt;&lt;/p&gt;&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; ; font-size: 18px&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;checkUpdateDataIds(cacheDatas&lt;/font&gt;&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; ; font-size: 18px&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;,inInitializingCacheList)&lt;/font&gt;&lt;/span&gt;&lt;/pre&gt;&lt;p&gt;&lt;/p&gt;" style="whiteSpace=wrap;html=1;rounded=0;align=center;spacing=0;" vertex="1" parent="1">
-          <mxGeometry x="1117.75" y="730" width="310" height="80" as="geometry" />
+        <mxCell id="gMyOnzurJYTI28C3glSG-57" value="&lt;p style=&quot;line-height: 0&quot;&gt;&lt;/p&gt;&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; ; font-size: 15px&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;checkUpdateDataIds(cacheDatas&lt;/font&gt;&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; ; font-size: 15px&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;,inInitializingCacheList)&lt;/font&gt;&lt;/span&gt;&lt;/pre&gt;&lt;p&gt;&lt;/p&gt;" style="whiteSpace=wrap;html=1;rounded=0;align=center;spacing=0;" vertex="1" parent="1">
+          <mxGeometry x="1114.5" y="700" width="310" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
