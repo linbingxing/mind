@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-08T10:41:40.465Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="7wG8rrql6OkBXa78_vic" version="16.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-09T10:54:31.031Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="64Z47U06G_Dc7QcBrEYJ" version="16.5.6" type="github">
   <diagram id="AEkYbbPtGk_L0vC9MOVH" name="第 1 页">
     <mxGraphModel dx="1422" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -165,7 +165,7 @@
         </mxCell>
         <mxCell id="gMyOnzurJYTI28C3glSG-64" value="根据变化的dataId调用nacos server获取配置信息，&lt;br&gt;并更新本地快照" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;fontColor=#000000;" vertex="1" connectable="0" parent="gMyOnzurJYTI28C3glSG-63">
           <mxGeometry x="0.34" y="-1" relative="1" as="geometry">
-            <mxPoint x="1" y="-24" as="offset" />
+            <mxPoint x="1" y="-20" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="gMyOnzurJYTI28C3glSG-57" value="&lt;p style=&quot;line-height: 0&quot;&gt;&lt;/p&gt;&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; ; font-size: 15px&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;checkUpdateDataIds(cacheDatas&lt;/font&gt;&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; ; font-size: 15px&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;,inInitializingCacheList)&lt;/font&gt;&lt;/span&gt;&lt;/pre&gt;&lt;p&gt;&lt;/p&gt;" style="whiteSpace=wrap;html=1;rounded=0;align=center;spacing=0;" vertex="1" parent="1">
@@ -174,11 +174,56 @@
         <mxCell id="gMyOnzurJYTI28C3glSG-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;fontColor=#000000;" edge="1" parent="1" source="gMyOnzurJYTI28C3glSG-62" target="gMyOnzurJYTI28C3glSG-65">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gMyOnzurJYTI28C3glSG-62" value="&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;open sans&amp;#34; , &amp;#34;clear sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , &amp;#34;segoe ui emoji&amp;#34; , sans-serif ; font-size: 16px ; background-color: rgb(255 , 255 , 255)&quot;&gt;getServerConfig(dataId, group, tenant, 3000L)&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;spacing=0;" vertex="1" parent="1">
-          <mxGeometry x="1092.5" y="850" width="360.5" height="60" as="geometry" />
+        <mxCell id="gMyOnzurJYTI28C3glSG-67" value="对有变化的配置调用对应的监听器处理" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;fontColor=#000000;" vertex="1" connectable="0" parent="gMyOnzurJYTI28C3glSG-66">
+          <mxGeometry x="-0.3" y="-2" relative="1" as="geometry">
+            <mxPoint x="2" y="12" as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="gMyOnzurJYTI28C3glSG-65" value="" style="whiteSpace=wrap;html=1;rounded=0;spacing=0;" vertex="1" parent="1">
-          <mxGeometry x="1097.75" y="990" width="350" height="60" as="geometry" />
+        <mxCell id="gMyOnzurJYTI28C3glSG-62" value="&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;open sans&amp;#34; , &amp;#34;clear sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , &amp;#34;segoe ui emoji&amp;#34; , sans-serif ; font-size: 16px ; background-color: rgb(255 , 255 , 255)&quot;&gt;getServerConfig(dataId, group, tenant, 3000L)&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry x="1092.5" y="850" width="360.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gMyOnzurJYTI28C3glSG-69" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;fontColor=#000000;" edge="1" parent="1" source="gMyOnzurJYTI28C3glSG-65" target="gMyOnzurJYTI28C3glSG-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gMyOnzurJYTI28C3glSG-70" value="继续轮询" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;fontColor=#000000;" vertex="1" connectable="0" parent="gMyOnzurJYTI28C3glSG-69">
+          <mxGeometry x="0.1821" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gMyOnzurJYTI28C3glSG-72" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;fontColor=#000000;" edge="1" parent="1" source="gMyOnzurJYTI28C3glSG-65" target="gMyOnzurJYTI28C3glSG-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gMyOnzurJYTI28C3glSG-65" value="&lt;font style=&quot;font-size: 15px&quot;&gt;cacheData.checkListenerMd5()&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry x="1142.5" y="990" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gMyOnzurJYTI28C3glSG-68" value="executorService.execute(this)" style="whiteSpace=wrap;html=1;rounded=0;spacing=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="1600" y="990" width="207.25" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gMyOnzurJYTI28C3glSG-74" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;fontColor=#000000;" edge="1" parent="1" source="gMyOnzurJYTI28C3glSG-71" target="gMyOnzurJYTI28C3glSG-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gMyOnzurJYTI28C3glSG-75" value="开启一个线程" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;fontColor=#000000;" vertex="1" connectable="0" parent="gMyOnzurJYTI28C3glSG-74">
+          <mxGeometry x="0.3077" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gMyOnzurJYTI28C3glSG-71" value="&lt;p class=&quot;md-end-block md-p md-focus&quot; style=&quot;box-sizing: border-box ; line-height: inherit ; margin: 0.8em 0px ; position: relative ; color: rgb(51 , 51 , 51) ; font-family: &amp;#34;open sans&amp;#34; , &amp;#34;clear sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , &amp;#34;segoe ui emoji&amp;#34; , sans-serif&quot;&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;CacheData#safeNotifyListener&lt;/font&gt;&lt;/p&gt;" style="whiteSpace=wrap;html=1;rounded=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry x="1158.18" y="1080" width="238.63" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gMyOnzurJYTI28C3glSG-77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;fontColor=#000000;" edge="1" parent="1" source="gMyOnzurJYTI28C3glSG-73" target="gMyOnzurJYTI28C3glSG-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gMyOnzurJYTI28C3glSG-73" value="&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;open sans&amp;#34; , &amp;#34;clear sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , &amp;#34;segoe ui emoji&amp;#34; , sans-serif ; font-size: 16px ; background-color: rgb(255 , 255 , 255)&quot;&gt;Runnable#run&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry x="1217.5" y="1190" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gMyOnzurJYTI28C3glSG-79" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;fontColor=#000000;" edge="1" parent="1" source="gMyOnzurJYTI28C3glSG-76" target="gMyOnzurJYTI28C3glSG-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gMyOnzurJYTI28C3glSG-76" value="&lt;font style=&quot;font-size: 15px&quot;&gt;listener.receiveConfigInfo(contentTmp)&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry x="1143.75" y="1280" width="267.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gMyOnzurJYTI28C3glSG-78" value="AbstractSharedListener#innerReceive" style="whiteSpace=wrap;html=1;rounded=0;spacing=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="1122.5" y="1360" width="310" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
