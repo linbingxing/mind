@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-10T06:26:39.675Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="YBSVpgmalSbY3TwvWE5x" version="16.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-10T08:46:45.244Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="TzuYkOem5ZJqnzNRXZ6u" version="16.5.6" type="github">
   <diagram id="AEkYbbPtGk_L0vC9MOVH" name="第 1 页">
-    <mxGraphModel dx="1422" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2249" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -396,22 +396,78 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="mHClkzEe4EQX2rLaS-CH-44" value="SpringApplication#run" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="60" y="370" width="170" height="60" as="geometry" />
+          <mxGeometry x="-420" y="350" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mHClkzEe4EQX2rLaS-CH-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="mHClkzEe4EQX2rLaS-CH-45" target="mHClkzEe4EQX2rLaS-CH-47">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="mHClkzEe4EQX2rLaS-CH-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="mHClkzEe4EQX2rLaS-CH-45" target="mHClkzEe4EQX2rLaS-CH-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="mHClkzEe4EQX2rLaS-CH-45" value="prepareEnviroment" style="whiteSpace=wrap;html=1;fontSize=15;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="70" y="490" width="150" height="60" as="geometry" />
+          <mxGeometry x="-410" y="570" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mHClkzEe4EQX2rLaS-CH-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="mHClkzEe4EQX2rLaS-CH-47" target="mHClkzEe4EQX2rLaS-CH-49">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="mHClkzEe4EQX2rLaS-CH-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="mHClkzEe4EQX2rLaS-CH-47" target="mHClkzEe4EQX2rLaS-CH-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="mHClkzEe4EQX2rLaS-CH-47" value="prepareContext" style="whiteSpace=wrap;html=1;fontSize=15;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="85" y="630" width="120" height="60" as="geometry" />
+          <mxGeometry x="-395" y="710" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mHClkzEe4EQX2rLaS-CH-49" value="refreshContext(context)" style="whiteSpace=wrap;html=1;fontSize=15;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="62.5" y="770" width="165" height="60" as="geometry" />
+          <mxGeometry x="-417.5" y="840" width="165" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mHClkzEe4EQX2rLaS-CH-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="mHClkzEe4EQX2rLaS-CH-51" target="mHClkzEe4EQX2rLaS-CH-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mHClkzEe4EQX2rLaS-CH-64" value="加载配置并合并到&lt;br&gt;CompositeProperty" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="mHClkzEe4EQX2rLaS-CH-58">
+          <mxGeometry x="-0.14" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mHClkzEe4EQX2rLaS-CH-51" value="&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;open sans&amp;#34; , &amp;#34;clear sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , &amp;#34;segoe ui emoji&amp;#34; , sans-serif ; font-size: 16px ; background-color: rgb(255 , 255 , 255)&quot;&gt;PropertySourceBootstrapConfiguration#initialize&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=15;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="712.5" width="385" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="mHClkzEe4EQX2rLaS-CH-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="mHClkzEe4EQX2rLaS-CH-53" target="mHClkzEe4EQX2rLaS-CH-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mHClkzEe4EQX2rLaS-CH-53" value="ConfigFileApplicationListener.Loader#load" style="whiteSpace=wrap;html=1;fontSize=15;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="570" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mHClkzEe4EQX2rLaS-CH-55" value="PropertiesPropertySourceLoader#load" style="whiteSpace=wrap;html=1;fontSize=15;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="570" width="295" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mHClkzEe4EQX2rLaS-CH-57" value="&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;open sans&amp;#34; , &amp;#34;clear sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , &amp;#34;segoe ui emoji&amp;#34; , sans-serif ; font-size: 16px ; background-color: rgb(255 , 255 , 255)&quot;&gt;PropertySourceLocator#locateCollection&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=15;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="415" y="710" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mHClkzEe4EQX2rLaS-CH-59" value="PropertySourceLoader" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="302.5" y="420" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mHClkzEe4EQX2rLaS-CH-60" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;fontSize=15;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="mHClkzEe4EQX2rLaS-CH-55" target="mHClkzEe4EQX2rLaS-CH-59">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="390" y="560" as="sourcePoint" />
+            <mxPoint x="550" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mHClkzEe4EQX2rLaS-CH-62" value="SpringBoot提供加载配置文件的接口" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="290" y="380" width="257" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mHClkzEe4EQX2rLaS-CH-63" value="加载properties配置文件，&lt;br&gt;优先加载bootstrap.properties,&lt;br&gt;然后加载application.properties" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="545" y="410" width="215" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mHClkzEe4EQX2rLaS-CH-65" value="在Spring-cloud-context包中实现，通过SPI机制加载：SpringApplication初始化的过程中会通过SpringFactoriesLoader加载ApplicationContextInitializer类型的实现类型到initializers中" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="-230" y="637" width="480" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="mHClkzEe4EQX2rLaS-CH-66" value="ApplicationContextInitiallizer" style="whiteSpace=wrap;html=1;fontSize=15;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="850" width="203.75" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mHClkzEe4EQX2rLaS-CH-68" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;fontSize=15;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="mHClkzEe4EQX2rLaS-CH-66">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint y="770" as="sourcePoint" />
+            <mxPoint x="160" y="770" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
