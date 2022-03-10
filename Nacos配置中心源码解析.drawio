@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-10T13:45:52.229Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="2ScxoY8aNJ7CnYUQicLC" version="16.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-10T13:46:17.508Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="8pbCxc9HMlcvsLimh75v" version="16.4.3" type="github">
   <diagram id="AEkYbbPtGk_L0vC9MOVH" name="第 1 页">
     <mxGraphModel dx="1609" dy="1605" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -463,11 +463,6 @@
         <mxCell id="mHClkzEe4EQX2rLaS-CH-65" value="在Spring-cloud-context包中实现，通过SPI机制加载：SpringApplication初始化的过程中会通过SpringFactoriesLoader加载ApplicationContextInitializer类型的实现类型到initializers中" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="-230" y="637" width="480" height="73" as="geometry" />
         </mxCell>
-        <mxCell id="mHClkzEe4EQX2rLaS-CH-72" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" parent="1" source="mHClkzEe4EQX2rLaS-CH-66" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1.875" y="940" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="mHClkzEe4EQX2rLaS-CH-66" value="ApplicationContextInitiallizer" style="whiteSpace=wrap;html=1;fontSize=15;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-100" y="850" width="203.75" height="40" as="geometry" />
         </mxCell>
@@ -480,8 +475,8 @@
         <mxCell id="mHClkzEe4EQX2rLaS-CH-69" value="&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;open sans&amp;#34; , &amp;#34;clear sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , &amp;#34;segoe ui emoji&amp;#34; , sans-serif ; font-size: 16px ; background-color: rgb(255 , 255 , 255)&quot;&gt;NacosPropertySourceLocator#locate&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=15;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="415" y="850" width="310" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Ta66e8Uacfotnn8h9oqC-1" value="&lt;span style=&quot;font-size: 15px ; background-color: rgb(255 , 255 , 255)&quot;&gt;Spring的扩展点之一，在ConfigurableApplicationContext#refresh()之前调用，&lt;br&gt;通常用于需要对应用上下文做初始化的web应用中，&lt;br&gt;比如根据上下文环境注册属性源或者激活配置文件等&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-230" y="950" width="530" height="50" as="geometry" />
+        <mxCell id="Ta66e8Uacfotnn8h9oqC-1" value="&lt;span style=&quot;font-size: 15px ; background-color: rgb(255 , 255 , 255)&quot;&gt;Spring的扩展点之一，&lt;br&gt;在ConfigurableApplicationContext#refresh()之前调用，&lt;br&gt;通常用于需要对应用上下文做初始化的web应用中，&lt;br&gt;比如根据上下文环境注册属性源或者激活配置文件等&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="900" width="380" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
