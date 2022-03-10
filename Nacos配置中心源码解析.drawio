@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-10T05:09:24.810Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="LmDHaLxMBfkm0tUrg0ID" version="16.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-10T06:26:39.675Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="YBSVpgmalSbY3TwvWE5x" version="16.5.6" type="github">
   <diagram id="AEkYbbPtGk_L0vC9MOVH" name="第 1 页">
     <mxGraphModel dx="1422" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -167,6 +167,9 @@
           <mxGeometry x="0.34" y="-1" relative="1" as="geometry">
             <mxPoint x="1" y="-20" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="mHClkzEe4EQX2rLaS-CH-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="gMyOnzurJYTI28C3glSG-57" target="mHClkzEe4EQX2rLaS-CH-40">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gMyOnzurJYTI28C3glSG-57" value="&lt;p style=&quot;line-height: 0&quot;&gt;&lt;/p&gt;&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; ; font-size: 15px&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;checkUpdateDataIds(cacheDatas&lt;/font&gt;&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; ; font-size: 15px&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;,inInitializingCacheList)&lt;/font&gt;&lt;/span&gt;&lt;/pre&gt;&lt;p&gt;&lt;/p&gt;" style="whiteSpace=wrap;html=1;rounded=0;align=center;spacing=0;" parent="1" vertex="1">
           <mxGeometry x="1114.5" y="700" width="310" height="60" as="geometry" />
@@ -379,6 +382,36 @@
         </mxCell>
         <mxCell id="mHClkzEe4EQX2rLaS-CH-38" value="&lt;font style=&quot;font-size: 15px&quot;&gt;/nacos/v1/cs/configs&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;spacing=0;" vertex="1" parent="1">
           <mxGeometry x="2060" y="840" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mHClkzEe4EQX2rLaS-CH-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="mHClkzEe4EQX2rLaS-CH-40" target="mHClkzEe4EQX2rLaS-CH-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mHClkzEe4EQX2rLaS-CH-40" value="&lt;font style=&quot;font-size: 15px&quot;&gt;MetricsHttpAgent#httpPost&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry x="1599.5" y="700" width="200.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mHClkzEe4EQX2rLaS-CH-42" value="&lt;font style=&quot;font-size: 15px&quot;&gt;/nacos/configs/listener&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry x="1920.25" y="700" width="169.75" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mHClkzEe4EQX2rLaS-CH-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="mHClkzEe4EQX2rLaS-CH-44" target="mHClkzEe4EQX2rLaS-CH-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mHClkzEe4EQX2rLaS-CH-44" value="SpringApplication#run" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="60" y="370" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mHClkzEe4EQX2rLaS-CH-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="mHClkzEe4EQX2rLaS-CH-45" target="mHClkzEe4EQX2rLaS-CH-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mHClkzEe4EQX2rLaS-CH-45" value="prepareEnviroment" style="whiteSpace=wrap;html=1;fontSize=15;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="490" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mHClkzEe4EQX2rLaS-CH-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="mHClkzEe4EQX2rLaS-CH-47" target="mHClkzEe4EQX2rLaS-CH-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mHClkzEe4EQX2rLaS-CH-47" value="prepareContext" style="whiteSpace=wrap;html=1;fontSize=15;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="85" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mHClkzEe4EQX2rLaS-CH-49" value="refreshContext(context)" style="whiteSpace=wrap;html=1;fontSize=15;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="62.5" y="770" width="165" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
