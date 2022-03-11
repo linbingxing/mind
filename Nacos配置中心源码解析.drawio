@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-11T11:11:27.378Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="9pXFfRtDnNqqxdJ5_I-R" version="16.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-11T11:17:22.191Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="YLTex_v14_MZayEAlRJQ" version="16.5.6" type="github">
   <diagram id="AEkYbbPtGk_L0vC9MOVH" name="第 1 页">
     <mxGraphModel dx="3076" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -43,8 +43,8 @@
         <mxCell id="nUu-qofF7TvcxjBh7wJN-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;fontSize=15;endArrow=classic;endFill=1;" edge="1" parent="1" source="gMyOnzurJYTI28C3glSG-12" target="nUu-qofF7TvcxjBh7wJN-1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="910" y="200" />
-              <mxPoint x="910" y="1050" />
+              <mxPoint x="860" y="200" />
+              <mxPoint x="860" y="1050" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -541,6 +541,9 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="nUu-qofF7TvcxjBh7wJN-112" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;endArrow=classic;endFill=1;" edge="1" parent="1" source="nUu-qofF7TvcxjBh7wJN-4" target="nUu-qofF7TvcxjBh7wJN-111">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="nUu-qofF7TvcxjBh7wJN-4" value="loadSharedConfiguration(composite)" style="whiteSpace=wrap;html=1;fontSize=15;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="440" y="1200" width="260" height="60" as="geometry" />
         </mxCell>
@@ -748,6 +751,9 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="nUu-qofF7TvcxjBh7wJN-114" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;endArrow=classic;endFill=1;" edge="1" parent="1" source="nUu-qofF7TvcxjBh7wJN-75" target="nUu-qofF7TvcxjBh7wJN-113">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="nUu-qofF7TvcxjBh7wJN-75" value="LocalConfigInfoProcessor.getFailover(&lt;br&gt;agent.getName,dataId,group,tenant)" style="whiteSpace=wrap;html=1;fontSize=15;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1809.75" y="180" width="259.99" height="60" as="geometry" />
         </mxCell>
@@ -842,6 +848,24 @@
         </mxCell>
         <mxCell id="nUu-qofF7TvcxjBh7wJN-110" value="用来存储标记了@RefreshScope注解的类的容器" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="650" y="2480" width="365" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nUu-qofF7TvcxjBh7wJN-111" value="NacosPropertySourceLocator&lt;br&gt;#loadNacosDatIfPresent" style="whiteSpace=wrap;html=1;fontSize=15;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="745" y="1200" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nUu-qofF7TvcxjBh7wJN-116" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;endArrow=classic;endFill=1;" edge="1" parent="1" source="nUu-qofF7TvcxjBh7wJN-113" target="nUu-qofF7TvcxjBh7wJN-115">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nUu-qofF7TvcxjBh7wJN-113" value="getFailoverFile(serverName,dataId,group,tenant)" style="whiteSpace=wrap;html=1;fontSize=15;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2219.73" y="180" width="340.27" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nUu-qofF7TvcxjBh7wJN-115" value="readFile(localPath)" style="whiteSpace=wrap;html=1;fontSize=15;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2750.14" y="180" width="149.86" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nUu-qofF7TvcxjBh7wJN-117" value="获取本地配置文件路径" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="2240" y="135" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nUu-qofF7TvcxjBh7wJN-118" value="如果存在此配置文件，读取配置信息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="2710" y="120" width="260" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
