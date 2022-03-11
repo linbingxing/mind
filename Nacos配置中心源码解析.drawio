@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-11T10:18:11.494Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="KuQd5BDzprDGKg3h29_G" version="16.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-11T10:45:49.061Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="y11ZcZBfXw7mmw3pq0_0" version="16.5.6" type="github">
   <diagram id="AEkYbbPtGk_L0vC9MOVH" name="第 1 页">
     <mxGraphModel dx="3076" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -720,7 +720,7 @@
             <mxPoint y="10" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nUu-qofF7TvcxjBh7wJN-73" value="NacosCOnfigService&lt;br&gt;#getConfigInner" style="whiteSpace=wrap;html=1;fontSize=15;rounded=0;" vertex="1" parent="1">
+        <mxCell id="nUu-qofF7TvcxjBh7wJN-73" value="NacosConfigService&lt;br&gt;#getConfigInner" style="whiteSpace=wrap;html=1;fontSize=15;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1855.13" y="30" width="169.75" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nUu-qofF7TvcxjBh7wJN-79" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;endArrow=classic;endFill=1;" edge="1" parent="1" source="nUu-qofF7TvcxjBh7wJN-75" target="nUu-qofF7TvcxjBh7wJN-78">
@@ -734,8 +734,51 @@
         <mxCell id="nUu-qofF7TvcxjBh7wJN-75" value="LocalConfigInfoProcessor.getFailover(&lt;br&gt;agent.getName,dataId,group,tenant)" style="whiteSpace=wrap;html=1;fontSize=15;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1809.75" y="180" width="259.99" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="nUu-qofF7TvcxjBh7wJN-82" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;endArrow=classic;endFill=1;" edge="1" parent="1" source="nUu-qofF7TvcxjBh7wJN-78" target="nUu-qofF7TvcxjBh7wJN-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="nUu-qofF7TvcxjBh7wJN-78" value="worker.getServerConfig(dataId,&lt;br&gt;group,tenant,timeoutMs)" style="whiteSpace=wrap;html=1;fontSize=15;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1820.01" y="360" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nUu-qofF7TvcxjBh7wJN-84" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;endArrow=classic;endFill=1;" edge="1" parent="1" source="nUu-qofF7TvcxjBh7wJN-81" target="nUu-qofF7TvcxjBh7wJN-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nUu-qofF7TvcxjBh7wJN-92" value="发起远程调用" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="nUu-qofF7TvcxjBh7wJN-84">
+          <mxGeometry x="-0.2667" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nUu-qofF7TvcxjBh7wJN-81" value="ClientWorker#getServerConfig" style="whiteSpace=wrap;html=1;fontSize=15;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2200.01" y="360" width="219.99" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nUu-qofF7TvcxjBh7wJN-86" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;endArrow=classic;endFill=1;" edge="1" parent="1" source="nUu-qofF7TvcxjBh7wJN-83" target="nUu-qofF7TvcxjBh7wJN-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nUu-qofF7TvcxjBh7wJN-90" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;endArrow=classic;endFill=1;" edge="1" parent="1" source="nUu-qofF7TvcxjBh7wJN-83" target="nUu-qofF7TvcxjBh7wJN-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nUu-qofF7TvcxjBh7wJN-91" value="保存结果到本地文件" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="nUu-qofF7TvcxjBh7wJN-90">
+          <mxGeometry x="-0.2" relative="1" as="geometry">
+            <mxPoint y="6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nUu-qofF7TvcxjBh7wJN-83" value="MetriceHttpAgent#httpGet" style="whiteSpace=wrap;html=1;fontSize=15;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2215" y="510" width="190.01" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nUu-qofF7TvcxjBh7wJN-88" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;endArrow=classic;endFill=1;" edge="1" parent="1" source="nUu-qofF7TvcxjBh7wJN-85" target="nUu-qofF7TvcxjBh7wJN-87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nUu-qofF7TvcxjBh7wJN-85" value="NacosRestTemplate#get" style="whiteSpace=wrap;html=1;fontSize=15;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2520.02" y="510" width="199.98" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nUu-qofF7TvcxjBh7wJN-87" value="/nacos/v1/cs/configs" style="whiteSpace=wrap;html=1;fontSize=15;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2545.01" y="650" width="150.01" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nUu-qofF7TvcxjBh7wJN-89" value="LocalConfigInfoProcessor&lt;br&gt;#saveSnapshot" style="whiteSpace=wrap;html=1;fontSize=15;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2195" y="680" width="230.01" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nUu-qofF7TvcxjBh7wJN-93" value="集群模式下轮询获取一个服务调用节点发起调用&lt;br&gt;ServerHttpAgent#httpGet" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="2520" y="420" width="210" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
