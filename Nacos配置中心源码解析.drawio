@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-11T10:13:49.549Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="IXfqkpXdcvpwDSgbykBI" version="16.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-11T10:18:11.494Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="KuQd5BDzprDGKg3h29_G" version="16.5.6" type="github">
   <diagram id="AEkYbbPtGk_L0vC9MOVH" name="第 1 页">
     <mxGraphModel dx="3076" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -712,8 +712,30 @@
         <mxCell id="nUu-qofF7TvcxjBh7wJN-71" value="getConfig(dataId,group,timeoutMs)" style="whiteSpace=wrap;html=1;fontSize=15;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1807.25" y="-110" width="265" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="nUu-qofF7TvcxjBh7wJN-76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;endArrow=classic;endFill=1;" edge="1" parent="1" source="nUu-qofF7TvcxjBh7wJN-73" target="nUu-qofF7TvcxjBh7wJN-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nUu-qofF7TvcxjBh7wJN-77" value="优先使用本地配置" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="nUu-qofF7TvcxjBh7wJN-76">
+          <mxGeometry x="-0.3429" relative="1" as="geometry">
+            <mxPoint y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="nUu-qofF7TvcxjBh7wJN-73" value="NacosCOnfigService&lt;br&gt;#getConfigInner" style="whiteSpace=wrap;html=1;fontSize=15;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1855.13" y="30" width="169.75" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nUu-qofF7TvcxjBh7wJN-79" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;endArrow=classic;endFill=1;" edge="1" parent="1" source="nUu-qofF7TvcxjBh7wJN-75" target="nUu-qofF7TvcxjBh7wJN-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nUu-qofF7TvcxjBh7wJN-80" value="如果未获取到配置信息，&lt;br&gt;则远程调用配置中心获取配置信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="nUu-qofF7TvcxjBh7wJN-79">
+          <mxGeometry x="-0.2007" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nUu-qofF7TvcxjBh7wJN-75" value="LocalConfigInfoProcessor.getFailover(&lt;br&gt;agent.getName,dataId,group,tenant)" style="whiteSpace=wrap;html=1;fontSize=15;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1809.75" y="180" width="259.99" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nUu-qofF7TvcxjBh7wJN-78" value="worker.getServerConfig(dataId,&lt;br&gt;group,tenant,timeoutMs)" style="whiteSpace=wrap;html=1;fontSize=15;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1820.01" y="360" width="240" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
