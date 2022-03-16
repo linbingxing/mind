@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-16T06:22:49.212Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="ZL5CMx1f__lXIiEbo6M_" version="16.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-16T06:24:08.406Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="_lhn12MkDYDD-dWieYoM" version="16.5.6" type="github">
   <diagram id="r_oDA48Beyb5aW0bg5-b" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -76,10 +76,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="2rhxEFoWDrhF9qIGfpkR-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=18;" edge="1" parent="1" source="2rhxEFoWDrhF9qIGfpkR-19" target="2rhxEFoWDrhF9qIGfpkR-32">
+        <mxCell id="2rhxEFoWDrhF9qIGfpkR-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=18;" edge="1" parent="1" source="2rhxEFoWDrhF9qIGfpkR-19" target="2rhxEFoWDrhF9qIGfpkR-32">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1330" y="420" />
+              <mxPoint x="1181" y="420" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -101,7 +102,10 @@
           <mxGeometry x="1130" y="30" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2rhxEFoWDrhF9qIGfpkR-32" value="采购对账单" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="1130" y="390" width="120" height="60" as="geometry" />
+          <mxGeometry x="1121" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2rhxEFoWDrhF9qIGfpkR-35" value="根据采购入库、退货单生成对账单" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="1090.5" y="380" width="199" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
