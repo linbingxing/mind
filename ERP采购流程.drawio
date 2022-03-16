@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-16T06:13:15.920Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="mW5OFja4A4KV0Z1LUsk3" version="16.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-16T06:18:28.056Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="XQvTyjcFFG8I29AiZbh9" version="16.5.6" type="github">
   <diagram id="r_oDA48Beyb5aW0bg5-b" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -33,6 +33,19 @@
         <mxCell id="2rhxEFoWDrhF9qIGfpkR-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=18;" edge="1" parent="1" source="2rhxEFoWDrhF9qIGfpkR-7" target="2rhxEFoWDrhF9qIGfpkR-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="2rhxEFoWDrhF9qIGfpkR-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="1" source="2rhxEFoWDrhF9qIGfpkR-7" target="2rhxEFoWDrhF9qIGfpkR-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="660" y="130" />
+              <mxPoint x="660" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2rhxEFoWDrhF9qIGfpkR-27" value="只有现购商品才能进行采购预付" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;" vertex="1" connectable="0" parent="2rhxEFoWDrhF9qIGfpkR-26">
+          <mxGeometry x="-0.2923" y="3" relative="1" as="geometry">
+            <mxPoint x="3" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="2rhxEFoWDrhF9qIGfpkR-7" value="零星采购" style="whiteSpace=wrap;html=1;rounded=0;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="600" y="170" width="120" height="60" as="geometry" />
         </mxCell>
@@ -52,6 +65,9 @@
         </mxCell>
         <mxCell id="2rhxEFoWDrhF9qIGfpkR-21" value="供应商发货" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="860" y="50" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2rhxEFoWDrhF9qIGfpkR-25" value="采购预付单" style="whiteSpace=wrap;html=1;fontSize=18;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
