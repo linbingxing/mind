@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-16T06:48:13.001Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="lX-PMXCAhy9YkC1qjcuW" version="16.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-16T06:48:48.741Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="gyFENrdFpPxFjstRuWc-" version="16.5.6" type="github">
   <diagram id="r_oDA48Beyb5aW0bg5-b" name="第 1 页">
     <mxGraphModel dx="1422" dy="1875" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -124,8 +124,8 @@
         <mxCell id="2rhxEFoWDrhF9qIGfpkR-32" value="采购对账单" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="1121" y="480" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2rhxEFoWDrhF9qIGfpkR-35" value="根据采购入库、退货单生成对账单" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="1090.5" y="380" width="199" height="30" as="geometry" />
+        <mxCell id="2rhxEFoWDrhF9qIGfpkR-35" value="根据采购入库、退货单生成对账单&lt;br&gt;只有计划采购类型的订单才能生成对账单" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="1090.5" y="300" width="199" height="140" as="geometry" />
         </mxCell>
         <mxCell id="2rhxEFoWDrhF9qIGfpkR-36" value="供应商确认对账单" style="whiteSpace=wrap;html=1;fontSize=18;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="1340" y="800" width="160" height="60" as="geometry" />
