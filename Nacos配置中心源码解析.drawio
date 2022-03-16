@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-15T07:51:38.610Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="rYahuyEVt47CZGxOMzR9" version="16.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-16T01:55:18.823Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="4oJExiA8FZm6Jsgry2qI" version="16.5.6" type="github">
   <diagram id="AEkYbbPtGk_L0vC9MOVH" name="第 1 页">
     <mxGraphModel dx="3076" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -937,6 +937,27 @@
         </mxCell>
         <mxCell id="nUu-qofF7TvcxjBh7wJN-139" value="MD5Util.compareMd5(request,&lt;br&gt;response,clientMd5Map)" style="whiteSpace=wrap;html=1;rounded=0;spacing=0;" parent="1" vertex="1">
           <mxGeometry x="2113.13" y="1430" width="211.87" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Pb4r1v0LzMdKSfeslKgK-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Pb4r1v0LzMdKSfeslKgK-1" target="Pb4r1v0LzMdKSfeslKgK-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Pb4r1v0LzMdKSfeslKgK-1" value="DumpService" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2930" y="-670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Pb4r1v0LzMdKSfeslKgK-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Pb4r1v0LzMdKSfeslKgK-2" target="Pb4r1v0LzMdKSfeslKgK-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Pb4r1v0LzMdKSfeslKgK-2" value="ExternalDumpService#init" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2900" y="-530" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Pb4r1v0LzMdKSfeslKgK-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Pb4r1v0LzMdKSfeslKgK-4" target="Pb4r1v0LzMdKSfeslKgK-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Pb4r1v0LzMdKSfeslKgK-4" value="DumpService#dumpOperate" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2885" y="-390" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Pb4r1v0LzMdKSfeslKgK-6" value="dumpConfigInfo(dumpAllProcessor)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2890" y="-250" width="200" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
