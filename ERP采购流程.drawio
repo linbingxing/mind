@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-16T06:46:23.913Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="0iMScOz6qZdTfnuV-o8A" version="16.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-16T06:48:13.001Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="lX-PMXCAhy9YkC1qjcuW" version="16.5.6" type="github">
   <diagram id="r_oDA48Beyb5aW0bg5-b" name="第 1 页">
     <mxGraphModel dx="1422" dy="1875" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -169,6 +169,11 @@
               <mxPoint x="545" y="730" />
               <mxPoint x="1181" y="730" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2rhxEFoWDrhF9qIGfpkR-56" value="更新余额" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;" vertex="1" connectable="0" parent="2rhxEFoWDrhF9qIGfpkR-55">
+          <mxGeometry x="-0.1121" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="2rhxEFoWDrhF9qIGfpkR-53" value="联营结算单" style="whiteSpace=wrap;html=1;fontSize=18;rounded=0;" vertex="1" parent="1">
