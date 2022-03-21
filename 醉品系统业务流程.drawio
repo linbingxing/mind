@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-18T07:34:53.459Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="T2ofcMFbFfCFD0mLglL0" version="16.5.6" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-03-21T01:49:42.964Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="LFqLQV-DfJPX8seaj63D" version="16.5.6" type="github" pages="5">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="销售订单预占">
     <mxGraphModel dx="3076" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -684,7 +684,7 @@
           <mxGeometry x="612.5" y="410" width="185" height="60" as="geometry" />
         </mxCell>
         <mxCell id="hr7VedvPQHfI8r5UqUuP-16" value="根据key统计&lt;br&gt;注册人数、订单数量" style="whiteSpace=wrap;html=1;fontSize=18;rounded=0;" vertex="1" parent="hr7VedvPQHfI8r5UqUuP-1">
-          <mxGeometry x="183.75" y="650" width="132.5" height="90" as="geometry" />
+          <mxGeometry x="163.75" y="650" width="132.5" height="90" as="geometry" />
         </mxCell>
         <mxCell id="hr7VedvPQHfI8r5UqUuP-20" value="注册、下单&lt;br&gt;请求头带相应的key" style="whiteSpace=wrap;html=1;fontSize=18;rounded=0;" vertex="1" parent="hr7VedvPQHfI8r5UqUuP-1">
           <mxGeometry x="150" y="405" width="160" height="70" as="geometry" />
@@ -693,7 +693,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="uiLEjMg37x0G2QCtN-ec" name="会员成长体系">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="4e0ILbK9reL918dQ15sg-0" />
         <mxCell id="4e0ILbK9reL918dQ15sg-1" parent="4e0ILbK9reL918dQ15sg-0" />
