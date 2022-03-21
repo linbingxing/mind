@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-21T05:49:47.360Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="Otam5R_s_IAhaZAwbOUz" version="16.5.6" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-03-21T08:47:11.754Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="SOMrH0hREiBM_117oPzN" version="16.5.6" type="github" pages="6">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="销售订单预占">
     <mxGraphModel dx="3076" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -759,6 +759,15 @@
         <mxCell id="cRsUkgWn3AKxMrZek84Z-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="cRsUkgWn3AKxMrZek84Z-1" source="cRsUkgWn3AKxMrZek84Z-2" target="cRsUkgWn3AKxMrZek84Z-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="cRsUkgWn3AKxMrZek84Z-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=18;" edge="1" parent="cRsUkgWn3AKxMrZek84Z-1" source="cRsUkgWn3AKxMrZek84Z-2" target="cRsUkgWn3AKxMrZek84Z-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="150" y="60" />
+              <mxPoint x="150" y="400" />
+              <mxPoint x="-750" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="cRsUkgWn3AKxMrZek84Z-2" value="总仓" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="cRsUkgWn3AKxMrZek84Z-1">
           <mxGeometry x="-60" y="30" width="120" height="60" as="geometry" />
         </mxCell>
@@ -786,6 +795,11 @@
         <mxCell id="cRsUkgWn3AKxMrZek84Z-15" value="按照仓库维度" style="whiteSpace=wrap;html=1;fontSize=18;rounded=0;" vertex="1" parent="cRsUkgWn3AKxMrZek84Z-1">
           <mxGeometry x="-530" y="130" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="cRsUkgWn3AKxMrZek84Z-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="cRsUkgWn3AKxMrZek84Z-1" source="cRsUkgWn3AKxMrZek84Z-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="cRsUkgWn3AKxMrZek84Z-17" value="分仓" style="whiteSpace=wrap;html=1;fontSize=18;rounded=0;" vertex="1" parent="cRsUkgWn3AKxMrZek84Z-1">
           <mxGeometry x="-60" y="130" width="120" height="60" as="geometry" />
         </mxCell>
@@ -800,6 +814,9 @@
         </mxCell>
         <mxCell id="cRsUkgWn3AKxMrZek84Z-24" value="按照选择仓库" style="whiteSpace=wrap;html=1;fontSize=18;rounded=0;" vertex="1" parent="cRsUkgWn3AKxMrZek84Z-1">
           <mxGeometry x="-310" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cRsUkgWn3AKxMrZek84Z-30" value="有效库存=库存量-预占（虚拟预占+实际预占）&lt;br&gt;&lt;br&gt;预占 = 虚拟预占+实际预占&lt;br&gt;&lt;br&gt;实际预占，根据接口配置（订单预占、领料预占、调拨预占、盘点预占、虚拟预占）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="cRsUkgWn3AKxMrZek84Z-1">
+          <mxGeometry x="-580" y="280" width="410" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
