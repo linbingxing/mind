@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-22T06:20:27.762Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="mWVuHC2azcZpU1JXsU5X" version="16.5.6" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-03-22T06:20:44.156Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="ImiclHFkgplJnIrYJVJS" version="16.5.6" type="github" pages="6">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="销售订单预占">
     <mxGraphModel dx="2856" dy="1698" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -222,7 +222,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="S9z1tQ-nLBidX5whtT1J" name="采购订单流程变化">
-    <mxGraphModel dx="1662" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="UitDZ5aQbuG6lCsxIav0-0" />
         <mxCell id="UitDZ5aQbuG6lCsxIav0-1" parent="UitDZ5aQbuG6lCsxIav0-0" />
@@ -414,7 +414,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G8OWWbctxIbW3DkkG6nM-1" value="供应商信息" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="UitDZ5aQbuG6lCsxIav0-1">
+        <mxCell id="G8OWWbctxIbW3DkkG6nM-1" value="供应商信息" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="UitDZ5aQbuG6lCsxIav0-1">
           <mxGeometry x="280" y="795" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
