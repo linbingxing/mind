@@ -1,23 +1,76 @@
-<mxfile host="app.diagrams.net" modified="2022-03-22T01:35:13.918Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="vKj3An3U9l5EmzP_cMA5" version="16.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-22T07:04:34.827Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="SFO74CSP33ogAtxSWQip" version="16.5.6" type="github">
   <diagram id="1Ly_ykDq4DCkkl1BJXWj" name="第 1 页">
-    <mxGraphModel dx="1662" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2249" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="SpTdvMsM4vrl7f9LALOI-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SpTdvMsM4vrl7f9LALOI-1" target="SpTdvMsM4vrl7f9LALOI-2">
+        <mxCell id="SpTdvMsM4vrl7f9LALOI-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="SpTdvMsM4vrl7f9LALOI-1" target="SpTdvMsM4vrl7f9LALOI-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="SpTdvMsM4vrl7f9LALOI-1" value="入口&lt;br&gt;@SpringBootApplication" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="50" width="160" height="60" as="geometry" />
+        <mxCell id="SpTdvMsM4vrl7f9LALOI-1" value="入口&lt;br style=&quot;font-size: 16px;&quot;&gt;@SpringBootApplication" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="10" y="50" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="SpTdvMsM4vrl7f9LALOI-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SpTdvMsM4vrl7f9LALOI-2" target="SpTdvMsM4vrl7f9LALOI-4">
+        <mxCell id="SpTdvMsM4vrl7f9LALOI-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="SpTdvMsM4vrl7f9LALOI-2" target="SpTdvMsM4vrl7f9LALOI-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="SpTdvMsM4vrl7f9LALOI-2" value="@EnableAutoConfiguration&lt;br&gt;启动自动配置，会自动扫描所有自动配置类，扫描到并且满足条件才会生效" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry y="190" width="260" height="90" as="geometry" />
+        <mxCell id="SpTdvMsM4vrl7f9LALOI-2" value="@EnableAutoConfiguration&lt;br style=&quot;font-size: 16px;&quot;&gt;启动自动配置，会自动扫描所有自动配置类，扫描到并且满足条件才会生效" style="whiteSpace=wrap;html=1;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="190" width="300" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="SpTdvMsM4vrl7f9LALOI-4" value="@Import(AutoConfigurationImportSelector.class)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="340" y="205" width="290" height="60" as="geometry" />
+        <mxCell id="SpTdvMsM4vrl7f9LALOI-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="SpTdvMsM4vrl7f9LALOI-4" target="SpTdvMsM4vrl7f9LALOI-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SpTdvMsM4vrl7f9LALOI-4" value="@Import(AutoConfigurationImportSelector.class)" style="whiteSpace=wrap;html=1;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="340" y="205" width="380" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SpTdvMsM4vrl7f9LALOI-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="SpTdvMsM4vrl7f9LALOI-6" target="SpTdvMsM4vrl7f9LALOI-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SpTdvMsM4vrl7f9LALOI-6" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;open sans&amp;quot;, &amp;quot;clear sans&amp;quot;, &amp;quot;helvetica neue&amp;quot;, helvetica, arial, &amp;quot;segoe ui emoji&amp;quot;, sans-serif; font-size: 16px; background-color: rgb(255, 255, 255);&quot;&gt;AutoConfigurationImportSelector&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="390" y="360" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SpTdvMsM4vrl7f9LALOI-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="SpTdvMsM4vrl7f9LALOI-8" target="SpTdvMsM4vrl7f9LALOI-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SpTdvMsM4vrl7f9LALOI-8" value="getAutoConfigurationEntry(annotationMetadata)&lt;br style=&quot;font-size: 16px;&quot;&gt;获取所有的有效自动配置类" style="whiteSpace=wrap;html=1;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="340" y="500" width="380" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SpTdvMsM4vrl7f9LALOI-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="SpTdvMsM4vrl7f9LALOI-10" target="SpTdvMsM4vrl7f9LALOI-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SpTdvMsM4vrl7f9LALOI-10" value="getCandidateConfigurations(annotationMetadata, attributes)&lt;br style=&quot;font-size: 16px;&quot;&gt;从META-INF/spring.factories中获得候选的自动配置类" style="whiteSpace=wrap;html=1;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="325" y="650" width="410" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SpTdvMsM4vrl7f9LALOI-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="SpTdvMsM4vrl7f9LALOI-12" target="SpTdvMsM4vrl7f9LALOI-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SpTdvMsM4vrl7f9LALOI-12" value="loadFacotryNames" style="whiteSpace=wrap;html=1;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="457.5" y="790" width="145" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SpTdvMsM4vrl7f9LALOI-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="SpTdvMsM4vrl7f9LALOI-14" target="SpTdvMsM4vrl7f9LALOI-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SpTdvMsM4vrl7f9LALOI-18" value="ClassLoader.getResources" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="SpTdvMsM4vrl7f9LALOI-17">
+          <mxGeometry x="-0.2128" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SpTdvMsM4vrl7f9LALOI-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="SpTdvMsM4vrl7f9LALOI-14" target="SpTdvMsM4vrl7f9LALOI-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SpTdvMsM4vrl7f9LALOI-14" value="loadSpringFactories&lt;br style=&quot;font-size: 16px;&quot;&gt;去读取一个用来存放配置类的文件" style="whiteSpace=wrap;html=1;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="432.5" y="940" width="195" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SpTdvMsM4vrl7f9LALOI-16" value="META-INF/spring.factories&lt;br style=&quot;font-size: 16px;&quot;&gt;读取所有jar包中存在的文件" style="whiteSpace=wrap;html=1;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="970" y="940" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SpTdvMsM4vrl7f9LALOI-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="SpTdvMsM4vrl7f9LALOI-19" target="SpTdvMsM4vrl7f9LALOI-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SpTdvMsM4vrl7f9LALOI-19" value="getOrDefault&lt;br style=&quot;font-size: 16px;&quot;&gt;根据EnableAutoConfiguration对象" style="whiteSpace=wrap;html=1;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="376.25" y="1070" width="307.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SpTdvMsM4vrl7f9LALOI-21" value="getConfigurationClassFilter().filter(configurations)&lt;br style=&quot;font-size: 16px;&quot;&gt;根据pom依赖中添加starter过滤出来的有效配置类" style="whiteSpace=wrap;html=1;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="347.5" y="1210" width="365" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
