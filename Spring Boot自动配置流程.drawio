@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-22T07:04:34.827Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="SFO74CSP33ogAtxSWQip" version="16.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-22T08:49:36.954Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="PwLQY0C8Au-T-iUTOYJP" version="16.5.6" type="github">
   <diagram id="1Ly_ykDq4DCkkl1BJXWj" name="第 1 页">
     <mxGraphModel dx="2249" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -43,6 +43,9 @@
         <mxCell id="SpTdvMsM4vrl7f9LALOI-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="SpTdvMsM4vrl7f9LALOI-12" target="SpTdvMsM4vrl7f9LALOI-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="SpTdvMsM4vrl7f9LALOI-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="SpTdvMsM4vrl7f9LALOI-12" target="SpTdvMsM4vrl7f9LALOI-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="SpTdvMsM4vrl7f9LALOI-12" value="loadFacotryNames" style="whiteSpace=wrap;html=1;rounded=0;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="457.5" y="790" width="145" height="60" as="geometry" />
         </mxCell>
@@ -71,6 +74,15 @@
         </mxCell>
         <mxCell id="SpTdvMsM4vrl7f9LALOI-21" value="getConfigurationClassFilter().filter(configurations)&lt;br style=&quot;font-size: 16px;&quot;&gt;根据pom依赖中添加starter过滤出来的有效配置类" style="whiteSpace=wrap;html=1;rounded=0;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="347.5" y="1210" width="365" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SpTdvMsM4vrl7f9LALOI-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="SpTdvMsM4vrl7f9LALOI-23" target="SpTdvMsM4vrl7f9LALOI-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SpTdvMsM4vrl7f9LALOI-23" value="factoryTypeName" style="whiteSpace=wrap;html=1;fontSize=16;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="695" y="790" width="155" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SpTdvMsM4vrl7f9LALOI-25" value="org.springframework.boot.autoconfigure.EnableAutoConfiguration" style="whiteSpace=wrap;html=1;fontSize=16;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="947.5" y="790" width="482.5" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
