@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-23T06:51:40.713Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="M5ky6Bemxd1vsfk_AVUD" version="16.5.6" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-03-23T10:28:46.015Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="tUtqAB5MUAyKel9pLmtU" version="16.5.6" type="github" pages="7">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="销售订单预占">
     <mxGraphModel dx="3327" dy="2000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -640,7 +640,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="MdN5NOtSPd-UgUlXYF2e" name="运营系统">
-    <mxGraphModel dx="1422" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="hr7VedvPQHfI8r5UqUuP-0" />
         <mxCell id="hr7VedvPQHfI8r5UqUuP-1" parent="hr7VedvPQHfI8r5UqUuP-0" />
@@ -690,7 +690,7 @@
         </mxCell>
         <mxCell id="hr7VedvPQHfI8r5UqUuP-18" value="发送mq到运营中心" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;" vertex="1" connectable="0" parent="hr7VedvPQHfI8r5UqUuP-17">
           <mxGeometry x="-0.2056" y="4" relative="1" as="geometry">
-            <mxPoint x="-4" y="12" as="offset" />
+            <mxPoint x="-4" y="36" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="hr7VedvPQHfI8r5UqUuP-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="hr7VedvPQHfI8r5UqUuP-1" source="hr7VedvPQHfI8r5UqUuP-14" target="hr7VedvPQHfI8r5UqUuP-20">
@@ -700,16 +700,16 @@
           <mxGeometry x="612.5" y="410" width="185" height="60" as="geometry" />
         </mxCell>
         <mxCell id="hr7VedvPQHfI8r5UqUuP-16" value="根据key统计&lt;br&gt;注册人数、订单数量" style="whiteSpace=wrap;html=1;fontSize=18;rounded=0;" vertex="1" parent="hr7VedvPQHfI8r5UqUuP-1">
-          <mxGeometry x="163.75" y="650" width="132.5" height="90" as="geometry" />
+          <mxGeometry x="163.75" y="750" width="132.5" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="hr7VedvPQHfI8r5UqUuP-20" value="注册、下单&lt;br&gt;请求头带相应的key" style="whiteSpace=wrap;html=1;fontSize=18;rounded=0;" vertex="1" parent="hr7VedvPQHfI8r5UqUuP-1">
+        <mxCell id="hr7VedvPQHfI8r5UqUuP-20" value="茶城注册、下单&lt;br&gt;请求头带相应的key" style="whiteSpace=wrap;html=1;fontSize=18;rounded=0;" vertex="1" parent="hr7VedvPQHfI8r5UqUuP-1">
           <mxGeometry x="150" y="405" width="160" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="uiLEjMg37x0G2QCtN-ec" name="会员成长体系">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2249" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="4e0ILbK9reL918dQ15sg-0" />
         <mxCell id="4e0ILbK9reL918dQ15sg-1" parent="4e0ILbK9reL918dQ15sg-0" />
@@ -818,6 +818,41 @@
         <mxCell id="UIgZX6RzeYeIyUksh0ZN-20" value="会员企业账户表&lt;br&gt;member_enterprise_account" style="whiteSpace=wrap;html=1;fontSize=18;rounded=0;" vertex="1" parent="4e0ILbK9reL918dQ15sg-1">
           <mxGeometry x="930" y="1035" width="250" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="rD276IcYrk38MNN1sjg6-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="4e0ILbK9reL918dQ15sg-1" source="rD276IcYrk38MNN1sjg6-0" target="rD276IcYrk38MNN1sjg6-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rD276IcYrk38MNN1sjg6-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="4e0ILbK9reL918dQ15sg-1" source="rD276IcYrk38MNN1sjg6-0" target="rD276IcYrk38MNN1sjg6-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rD276IcYrk38MNN1sjg6-0" value="茶城" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="4e0ILbK9reL918dQ15sg-1">
+          <mxGeometry x="-10" y="1290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rD276IcYrk38MNN1sjg6-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="4e0ILbK9reL918dQ15sg-1" source="rD276IcYrk38MNN1sjg6-1" target="rD276IcYrk38MNN1sjg6-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rD276IcYrk38MNN1sjg6-1" value="成长体系" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="4e0ILbK9reL918dQ15sg-1">
+          <mxGeometry x="190" y="1290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rD276IcYrk38MNN1sjg6-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=18;" edge="1" parent="4e0ILbK9reL918dQ15sg-1" source="rD276IcYrk38MNN1sjg6-3" target="rD276IcYrk38MNN1sjg6-0">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="450" y="1270" />
+              <mxPoint x="50" y="1270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rD276IcYrk38MNN1sjg6-3" value="注册码" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="4e0ILbK9reL918dQ15sg-1">
+          <mxGeometry x="390" y="1290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rD276IcYrk38MNN1sjg6-6" value="记录注册码" style="whiteSpace=wrap;html=1;fontSize=18;rounded=0;" vertex="1" parent="4e0ILbK9reL918dQ15sg-1">
+          <mxGeometry x="-10" y="1430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rD276IcYrk38MNN1sjg6-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=18;" edge="1" parent="4e0ILbK9reL918dQ15sg-1" source="rD276IcYrk38MNN1sjg6-8" target="rD276IcYrk38MNN1sjg6-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rD276IcYrk38MNN1sjg6-8" value="茶集" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="4e0ILbK9reL918dQ15sg-1">
+          <mxGeometry x="-10" y="1560" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
@@ -892,7 +927,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Z3-LUjbwOjOeZW_NEGoQ" name="企业用茶">
-    <mxGraphModel dx="1422" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0sQ3FYURyfdlNBWtvxSY-0" />
         <mxCell id="0sQ3FYURyfdlNBWtvxSY-1" parent="0sQ3FYURyfdlNBWtvxSY-0" />
