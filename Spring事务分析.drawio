@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-10T16:50:41.721Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="AwPFnt8vxNLeVo3HElgy" version="17.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-10T16:54:51.550Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="CcadG8OQCV3o1PVkEjkZ" version="17.1.2" type="github">
   <diagram id="Odj46-beIhoIQQR6Bg-E" name="第 1 页">
-    <mxGraphModel dx="782" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="782" dy="1605" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -19,11 +19,26 @@
         <mxCell id="9VaDb7st5AmOWOfAFCHQ-2" value="TransactionManagementConfigurationSelector" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="350" y="140" width="280" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="9VaDb7st5AmOWOfAFCHQ-4" value="AutoProxyRegister" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="9VaDb7st5AmOWOfAFCHQ-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9VaDb7st5AmOWOfAFCHQ-4" target="9VaDb7st5AmOWOfAFCHQ-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9VaDb7st5AmOWOfAFCHQ-4" value="&lt;span style=&quot;color: rgb(77 , 77 , 77) ; font-size: 10.3604pt&quot;&gt;自动代理注册器&lt;/span&gt;AutoProxyRegister" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="770" y="60" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9VaDb7st5AmOWOfAFCHQ-6" value="ProxyTransactionManagementConfiguration" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="770" y="200" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9VaDb7st5AmOWOfAFCHQ-8" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="9VaDb7st5AmOWOfAFCHQ-4">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="830" y="60" as="sourcePoint" />
+            <mxPoint x="830" y="-10" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9VaDb7st5AmOWOfAFCHQ-9" value="&lt;div&gt;&lt;span style=&quot;font-size: 8.00807pt ; font-family: &amp;#34;consolas&amp;#34; ; color: rgb(226 , 119 , 122)&quot;&gt;ImportBeanDefinitionRegistrar&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="-70" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9VaDb7st5AmOWOfAFCHQ-10" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="970" y="60" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
