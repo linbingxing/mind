@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-10T14:31:06.236Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="xMXCogpOTpEOsIhYBxdp" version="17.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-10T16:43:50.474Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="PE202v2mlX3zvMiwFzZj" version="17.1.2" type="github">
   <diagram id="QgEiLKrSvVICeqtT1u2R" name="Page-1">
     <mxGraphModel dx="782" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -64,13 +64,13 @@
         <mxCell id="H7Eiv9jxb8CIly3ZrgXF-11" value="&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; ; font-size: 9.8pt&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;prepareBeanFactory(beanFactory)&lt;/span&gt;&lt;/pre&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="430" y="185" width="340" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="A_nBl0eGspFHgRM14m2u-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="H7Eiv9jxb8CIly3ZrgXF-13" target="A_nBl0eGspFHgRM14m2u-1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="H7Eiv9jxb8CIly3ZrgXF-13" value="&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; ; font-size: 9.8pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;arial&amp;#34; ; font-size: 9.8pt&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;调用我们的&lt;span style=&quot;font-family: &amp;#34;consolas&amp;#34;&quot;&gt;bean&lt;/span&gt;工厂的后置处理器&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; ; font-size: 9.8pt&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;postProcessBeanFactory(beanFactory)&lt;/span&gt;&lt;/pre&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+        <mxCell id="H7Eiv9jxb8CIly3ZrgXF-13" value="&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; ; font-size: 9.8pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;arial&amp;#34; ; font-size: 9.8pt&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9.8pt ; white-space: normal&quot;&gt;postProcessBeanFactory(beanFactory)&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/pre&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="430" y="280" width="340" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="H7Eiv9jxb8CIly3ZrgXF-15" value="&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; ; font-size: 9.8pt&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 206 , 159)&quot;&gt;invokeBeanFactoryPostProcessors(beanFactory)&lt;/span&gt;&lt;/pre&gt;" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+        <mxCell id="A_nBl0eGspFHgRM14m2u-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="H7Eiv9jxb8CIly3ZrgXF-15" target="A_nBl0eGspFHgRM14m2u-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H7Eiv9jxb8CIly3ZrgXF-15" value="&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; ; font-size: 9.8pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;arial&amp;#34; ; font-size: 9.8pt&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;调用我们的&lt;span style=&quot;font-family: &amp;#34;consolas&amp;#34;&quot;&gt;bean&lt;/span&gt;工厂的后置处理器&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;#34;arial&amp;#34; ; font-size: 9.8pt&quot;&gt;invokeBeanFactoryPostProcessors(beanFactory)&lt;/pre&gt;&lt;/pre&gt;" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="430" y="382.5" width="340" height="60" as="geometry" />
         </mxCell>
         <mxCell id="H7Eiv9jxb8CIly3ZrgXF-17" value="&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; ; font-size: 9.8pt&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 206 , 159)&quot;&gt;registerBeanPostProcessors(beanFactory)&lt;/span&gt;&lt;/pre&gt;" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
@@ -97,11 +97,16 @@
         <mxCell id="A_nBl0eGspFHgRM14m2u-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="A_nBl0eGspFHgRM14m2u-1" target="A_nBl0eGspFHgRM14m2u-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="A_nBl0eGspFHgRM14m2u-5" value="加载已注册的bean定义后置处理器" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="A_nBl0eGspFHgRM14m2u-4">
+          <mxGeometry x="-0.3041" y="1" relative="1" as="geometry">
+            <mxPoint x="42" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="A_nBl0eGspFHgRM14m2u-1" value="&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; ; font-size: 9.8pt&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;PostProcessorRegistrationDelegate&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; ; font-size: 9.8pt&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;#invokeBeanFactoryPostProcessor&lt;/span&gt;&lt;/pre&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="930" y="280" width="320" height="60" as="geometry" />
+          <mxGeometry x="940" y="382.5" width="320" height="60" as="geometry" />
         </mxCell>
         <mxCell id="A_nBl0eGspFHgRM14m2u-3" value="ConfigurationClassPostProcessor&lt;br&gt;#postProcessBeanDefinitionRegistry" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="987.5" y="420" width="205" height="60" as="geometry" />
+          <mxGeometry x="1610" y="382.5" width="205" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
