@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2022-04-11T11:30:47.618Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="g7ie_OhH92R09lL2Z5rV" version="17.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-11T11:49:28.676Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="EAsPBsvb7iYx0NF7BYX5" version="17.4.2" type="github">
   <diagram id="zqGLJk5UMvPrqmy6urZE" name="Page-1">
     <mxGraphModel dx="2436" dy="1605" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="qAHA5m0EomlQa44xy-ke-46" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1340" y="670" width="1610" height="330" as="geometry" />
+        </mxCell>
         <mxCell id="RtKo5a0ZY0x2Z-9psbsB-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" parent="1" source="RtKo5a0ZY0x2Z-9psbsB-1" target="RtKo5a0ZY0x2Z-9psbsB-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -110,6 +113,14 @@
             <mxPoint x="-34" y="251" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="qAHA5m0EomlQa44xy-ke-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qAHA5m0EomlQa44xy-ke-18" target="qAHA5m0EomlQa44xy-ke-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qAHA5m0EomlQa44xy-ke-36" value="创建bean对象" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qAHA5m0EomlQa44xy-ke-35">
+          <mxGeometry x="-0.1722" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="qAHA5m0EomlQa44xy-ke-18" value="applyBeanPostProcessorsBeforeInstantiation&lt;br&gt;获取容器中的InstantiationAwareBeanPostProcessor实现所有后置处理器" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="732.5" y="230" width="295" height="60" as="geometry" />
         </mxCell>
@@ -137,8 +148,41 @@
         <mxCell id="qAHA5m0EomlQa44xy-ke-29" value="&lt;br&gt;获取顾问方法getAdvisorMethods" style="whiteSpace=wrap;html=1;strokeColor=#000000;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-979.375" y="880" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="qAHA5m0EomlQa44xy-ke-31" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1010" y="1070" width="120" height="60" as="geometry" />
+        <mxCell id="qAHA5m0EomlQa44xy-ke-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qAHA5m0EomlQa44xy-ke-34" target="qAHA5m0EomlQa44xy-ke-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qAHA5m0EomlQa44xy-ke-39" value="对象初始化操作" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qAHA5m0EomlQa44xy-ke-38">
+          <mxGeometry x="-0.3101" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qAHA5m0EomlQa44xy-ke-34" value="doCreateBean" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="820" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qAHA5m0EomlQa44xy-ke-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qAHA5m0EomlQa44xy-ke-37" target="qAHA5m0EomlQa44xy-ke-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qAHA5m0EomlQa44xy-ke-42" value="初始化后置处理器" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qAHA5m0EomlQa44xy-ke-41">
+          <mxGeometry x="-0.2232" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qAHA5m0EomlQa44xy-ke-37" value="initializeBean" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="820" y="585" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qAHA5m0EomlQa44xy-ke-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qAHA5m0EomlQa44xy-ke-40" target="qAHA5m0EomlQa44xy-ke-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qAHA5m0EomlQa44xy-ke-45" value="生成动态代理对象" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qAHA5m0EomlQa44xy-ke-44">
+          <mxGeometry x="-0.3542" y="2" relative="1" as="geometry">
+            <mxPoint x="-2" y="21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qAHA5m0EomlQa44xy-ke-40" value="applyBeanPostProcessorsAfterInitialization" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="765" y="760" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qAHA5m0EomlQa44xy-ke-43" value="AbstractAutoProxyCreator#postProcessAfterInitialization" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="715" y="910" width="330" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
