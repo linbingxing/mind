@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-11T10:38:55.437Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="xB4NBUmO8Nf5kt7fs2E3" version="17.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-11T10:47:43.748Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="RzzLNd2haw8jcWbj_I2-" version="17.4.2" type="github">
   <diagram id="zqGLJk5UMvPrqmy6urZE" name="Page-1">
     <mxGraphModel dx="1609" dy="1605" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -84,6 +84,9 @@
         <mxCell id="qAHA5m0EomlQa44xy-ke-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qAHA5m0EomlQa44xy-ke-13" target="qAHA5m0EomlQa44xy-ke-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="qAHA5m0EomlQa44xy-ke-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qAHA5m0EomlQa44xy-ke-13" target="qAHA5m0EomlQa44xy-ke-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="qAHA5m0EomlQa44xy-ke-13" value="findCandidateAdvisors()" style="whiteSpace=wrap;html=1;strokeColor=#000000;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-460" y="740" width="177.5" height="60" as="geometry" />
         </mxCell>
@@ -111,6 +114,9 @@
         </mxCell>
         <mxCell id="qAHA5m0EomlQa44xy-ke-21" value="BeanFactoryAspectJAdvisorsBuilder#buildAspectJAdvisors&lt;br&gt;去容器中获取到所有的切面信息保存到缓存中" style="whiteSpace=wrap;html=1;strokeColor=#000000;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-536.25" y="880" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qAHA5m0EomlQa44xy-ke-23" value="遍历所有的bean定义，过滤出@Aspect标记的类" style="whiteSpace=wrap;html=1;strokeColor=#000000;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-688.75" y="740" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
