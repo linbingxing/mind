@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-11T15:24:56.096Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="VKxKJXcNCnLAjr3WIlmZ" version="17.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-11T15:28:48.156Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="baLFk55_sdxKBt1uFR3f" version="17.4.2" type="github">
   <diagram id="zqGLJk5UMvPrqmy6urZE" name="Page-1">
     <mxGraphModel dx="2436" dy="1605" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -286,6 +286,36 @@
         </mxCell>
         <mxCell id="qAHA5m0EomlQa44xy-ke-78" value="创建动态代理" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="820" y="-240" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qAHA5m0EomlQa44xy-ke-82" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qAHA5m0EomlQa44xy-ke-80" target="qAHA5m0EomlQa44xy-ke-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qAHA5m0EomlQa44xy-ke-80" value="调用动态代理" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-150" y="2020" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qAHA5m0EomlQa44xy-ke-84" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qAHA5m0EomlQa44xy-ke-81" target="qAHA5m0EomlQa44xy-ke-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qAHA5m0EomlQa44xy-ke-86" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qAHA5m0EomlQa44xy-ke-81" target="qAHA5m0EomlQa44xy-ke-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qAHA5m0EomlQa44xy-ke-81" value="调用被代理的方法" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-150" y="2190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qAHA5m0EomlQa44xy-ke-88" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qAHA5m0EomlQa44xy-ke-83" target="qAHA5m0EomlQa44xy-ke-87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qAHA5m0EomlQa44xy-ke-83" value="&lt;span&gt;JdkDynamicAopProxy#invoke&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-340" y="2330" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qAHA5m0EomlQa44xy-ke-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qAHA5m0EomlQa44xy-ke-85" target="qAHA5m0EomlQa44xy-ke-87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qAHA5m0EomlQa44xy-ke-85" value="&lt;span&gt;CglibAopProxy#intercept&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-35" y="2330" width="245" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qAHA5m0EomlQa44xy-ke-87" value="&lt;span&gt;ReflectiveMethodInvocation#proceed&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-197.5" y="2510" width="250" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
