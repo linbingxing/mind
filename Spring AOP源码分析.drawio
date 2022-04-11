@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-11T15:28:48.156Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="baLFk55_sdxKBt1uFR3f" version="17.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-11T15:35:25.126Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="JrHu4zZFEXW07WC1_OHE" version="17.4.2" type="github">
   <diagram id="zqGLJk5UMvPrqmy6urZE" name="Page-1">
     <mxGraphModel dx="2436" dy="1605" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -314,8 +314,32 @@
         <mxCell id="qAHA5m0EomlQa44xy-ke-85" value="&lt;span&gt;CglibAopProxy#intercept&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-35" y="2330" width="245" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="qAHA5m0EomlQa44xy-ke-91" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qAHA5m0EomlQa44xy-ke-87" target="qAHA5m0EomlQa44xy-ke-90">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="qAHA5m0EomlQa44xy-ke-87" value="&lt;span&gt;ReflectiveMethodInvocation#proceed&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-197.5" y="2510" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qAHA5m0EomlQa44xy-ke-90" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-262.5" y="2650" width="380" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="qAHA5m0EomlQa44xy-ke-93" value="递归调用从interceptorsAndDynamicMethodMatchers&lt;br&gt;循环获取拦截器" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="2640" width="220" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="qAHA5m0EomlQa44xy-ke-95" value="&lt;pre&gt;0--&amp;gt;ExposeInvocationInterceptor#invoke&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-220" y="2730" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qAHA5m0EomlQa44xy-ke-96" value="&lt;pre&gt;&lt;font face=&quot;Helvetica&quot;&gt;异常通知具体执行对象&lt;br&gt;&lt;/font&gt;&lt;/pre&gt;&lt;pre&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;1--&amp;gt;AspectJAfterThrowingAdvice#invoke&amp;nbsp;&lt;/span&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-220" y="2820" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qAHA5m0EomlQa44xy-ke-97" value="&lt;span&gt;返回通知拦截器&lt;/span&gt;&lt;br&gt;&lt;span&gt;2--&amp;gt;AfterReturningAdviceInterceptor#invoke&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-220" y="2900" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qAHA5m0EomlQa44xy-ke-98" value="&lt;span&gt;后置通知拦截器&lt;/span&gt;&lt;br&gt;&lt;span&gt;3--&amp;gt;AspectJAfterAdvice#invoke&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-220" y="2980" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qAHA5m0EomlQa44xy-ke-99" value="&lt;span&gt;前置通知拦截器&lt;/span&gt;&lt;br&gt;&lt;span&gt;4--&amp;gt;MethodBeforeAdviceIntercepotor#invoke&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-220" y="3070" width="270" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
