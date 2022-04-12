@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-12T15:39:00.279Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="NpWHY7oQVDQTFoUquFPZ" version="17.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-12T15:48:25.961Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="5utKlndwPRFtFO5FHkEU" version="17.4.3" type="github">
   <diagram id="w4uHxJY5UsQgHHnN7Xe6" name="第 1 页">
     <mxGraphModel dx="1609" dy="1605" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -329,6 +329,9 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="CFEKlHjBmbo5Hejxvnzg-172" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CFEKlHjBmbo5Hejxvnzg-96" target="CFEKlHjBmbo5Hejxvnzg-171">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="CFEKlHjBmbo5Hejxvnzg-96" value="instanceWrapper = createBeanInstance(beanName, mbd, args)" style="whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#36393d;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1500" y="230" width="350" height="40" as="geometry" />
         </mxCell>
@@ -566,11 +569,35 @@
         <mxCell id="CFEKlHjBmbo5Hejxvnzg-166" value="getEarlyBeanReference(String beanName, RootBeanDefinition mbd, Object bean)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;" vertex="1" parent="1">
           <mxGeometry x="1920" y="530" width="260" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="CFEKlHjBmbo5Hejxvnzg-167" value="SmartInstantiationAwareBeanPostProcessor&lt;br&gt;.getEarlyBeanReference(exposedObject, beanName)" style="whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;rounded=0;" vertex="1" parent="1">
+        <mxCell id="CFEKlHjBmbo5Hejxvnzg-167" value="SmartInstantiationAwareBeanPostProcessor&lt;br&gt;.getEarlyBeanReference(exposedObject, beanName)" style="whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2400" y="525" width="300" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CFEKlHjBmbo5Hejxvnzg-170" value="提前暴露bean的引用，主要用于解决bean循环依赖问题" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="2390" y="485" width="330" height="30" as="geometry" />
+        <mxCell id="CFEKlHjBmbo5Hejxvnzg-170" value="提前暴露bean的引用，主要用于解决bean循环依赖问题&lt;br&gt;以通过SmartInstantiationAwareBeanPostProcessor的后置处理器来修改我们早期对象的属性" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2390" y="475" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CFEKlHjBmbo5Hejxvnzg-171" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1880" y="190" width="20" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="CFEKlHjBmbo5Hejxvnzg-176" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CFEKlHjBmbo5Hejxvnzg-173" target="CFEKlHjBmbo5Hejxvnzg-175">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CFEKlHjBmbo5Hejxvnzg-173" value="instantiateUsingFactoryMethod(beanName, mbd, args)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;" vertex="1" parent="1">
+          <mxGeometry x="1900" y="170" width="310" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CFEKlHjBmbo5Hejxvnzg-174" value="通过工厂方法创建bean实例" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1900" y="140" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CFEKlHjBmbo5Hejxvnzg-178" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CFEKlHjBmbo5Hejxvnzg-175" target="CFEKlHjBmbo5Hejxvnzg-177">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CFEKlHjBmbo5Hejxvnzg-175" value="InstantiationStrategy#instantiate()" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#fad9d5;strokeColor=#ae4132;" vertex="1" parent="1">
+          <mxGeometry x="2267.5" y="160" width="205" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CFEKlHjBmbo5Hejxvnzg-177" value="Object result = factoryMethod.invoke(factoryBean, args)" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#fad9d5;strokeColor=#ae4132;" vertex="1" parent="1">
+          <mxGeometry x="2557.5" y="165" width="247.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="CFEKlHjBmbo5Hejxvnzg-179" value="调用@bean修饰的业务方法返回bean" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2557.5" y="135" width="209" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
