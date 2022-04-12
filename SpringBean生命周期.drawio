@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-12T12:27:59.123Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="dEdbUX_EqBGLxPxwJUXW" version="17.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-12T12:48:50.307Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="_H79mo8qc--7wuDtMM8_" version="17.4.3" type="github">
   <diagram id="w4uHxJY5UsQgHHnN7Xe6" name="第 1 页">
     <mxGraphModel dx="1609" dy="1605" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -57,8 +57,79 @@
         <mxCell id="CFEKlHjBmbo5Hejxvnzg-11" value="!bd.isAbstract() &amp;amp;&amp;amp; bd.isSingleton() &amp;amp;&amp;amp; !bd.isLazyInit()" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="20" y="360" width="210" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="CFEKlHjBmbo5Hejxvnzg-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CFEKlHjBmbo5Hejxvnzg-14" target="CFEKlHjBmbo5Hejxvnzg-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CFEKlHjBmbo5Hejxvnzg-19" value="返回单例或者原型bean" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CFEKlHjBmbo5Hejxvnzg-18">
+          <mxGeometry x="-0.2593" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="CFEKlHjBmbo5Hejxvnzg-14" value="AbstractBeanFactory&lt;br&gt;#getBean()" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="355" y="360" width="165" height="60" as="geometry" />
+          <mxGeometry x="355" y="360" width="205" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CFEKlHjBmbo5Hejxvnzg-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CFEKlHjBmbo5Hejxvnzg-17" target="CFEKlHjBmbo5Hejxvnzg-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CFEKlHjBmbo5Hejxvnzg-22" value="从单例池中获取" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CFEKlHjBmbo5Hejxvnzg-21">
+          <mxGeometry x="-0.2815" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CFEKlHjBmbo5Hejxvnzg-17" value="doGetBean()" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="355" y="460" width="202.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CFEKlHjBmbo5Hejxvnzg-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CFEKlHjBmbo5Hejxvnzg-20" target="CFEKlHjBmbo5Hejxvnzg-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CFEKlHjBmbo5Hejxvnzg-25" value="存在，判断FactoryBean对象" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CFEKlHjBmbo5Hejxvnzg-24">
+          <mxGeometry x="-0.237" y="-1" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CFEKlHjBmbo5Hejxvnzg-20" value="getSingleton(beanName)" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="355" y="570" width="202.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CFEKlHjBmbo5Hejxvnzg-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CFEKlHjBmbo5Hejxvnzg-23" target="CFEKlHjBmbo5Hejxvnzg-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="456" y="780" />
+              <mxPoint x="456" y="780" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CFEKlHjBmbo5Hejxvnzg-29" value="判断如果name以&amp;amp;开头，实例为&lt;br&gt;FactoryBean对象，认为有问题" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CFEKlHjBmbo5Hejxvnzg-28">
+          <mxGeometry x="-0.6619" relative="1" as="geometry">
+            <mxPoint x="1" y="20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CFEKlHjBmbo5Hejxvnzg-23" value="bean = &lt;br&gt;getObjectForBeanInstance(&lt;br&gt;sharedInstance, name, beanName, null)" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="355" y="680" width="202.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CFEKlHjBmbo5Hejxvnzg-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CFEKlHjBmbo5Hejxvnzg-27" target="CFEKlHjBmbo5Hejxvnzg-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CFEKlHjBmbo5Hejxvnzg-32" value="从factoryBeanObjectCache缓存中获取" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CFEKlHjBmbo5Hejxvnzg-31">
+          <mxGeometry x="-0.3212" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" y="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CFEKlHjBmbo5Hejxvnzg-27" value="if(BeanFactoryUtils.&lt;br&gt;isFactoryDereference(name)||&lt;br&gt;beanInstance instanceof FactoryBean)" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="357.5" y="800" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CFEKlHjBmbo5Hejxvnzg-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CFEKlHjBmbo5Hejxvnzg-30" target="CFEKlHjBmbo5Hejxvnzg-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CFEKlHjBmbo5Hejxvnzg-35" value="若缓存中没有，则调用" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CFEKlHjBmbo5Hejxvnzg-34">
+          <mxGeometry x="-0.2067" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CFEKlHjBmbo5Hejxvnzg-30" value="object =&lt;br&gt;getCachedObjectForFactoryBean" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="356.25" y="920" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CFEKlHjBmbo5Hejxvnzg-33" value="object = getObjectFromFactoryBean(factory, beanName, !synthetic)" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="355" y="1030" width="200" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
