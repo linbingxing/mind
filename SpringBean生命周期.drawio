@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-12T13:15:58.148Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="L7KGN4STEAINtUtVx4RS" version="17.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-12T13:18:02.036Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="LWLJt4w5ncz_gAo1_ET9" version="17.4.3" type="github">
   <diagram id="w4uHxJY5UsQgHHnN7Xe6" name="第 1 页">
     <mxGraphModel dx="1609" dy="1605" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -181,7 +181,7 @@
         <mxCell id="CFEKlHjBmbo5Hejxvnzg-46" value="判断scope类型？" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="775" y="280" width="140" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="CFEKlHjBmbo5Hejxvnzg-48" value="" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rounded=0;" vertex="1" parent="1">
+        <mxCell id="CFEKlHjBmbo5Hejxvnzg-48" value="DefaultSingletonBeanRegistry&lt;br&gt;#getSingleton(beanName, ObjectFactory&amp;lt;?&amp;gt; singletonFactory)" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="715" y="450" width="260" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CFEKlHjBmbo5Hejxvnzg-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CFEKlHjBmbo5Hejxvnzg-51" target="CFEKlHjBmbo5Hejxvnzg-54">
