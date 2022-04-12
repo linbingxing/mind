@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-12T14:58:13.850Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="xhtWk3e4g7oNfBeiSXFM" version="17.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-12T15:04:20.417Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="ZBw7VuBsjewwJ036i_iX" version="17.4.3" type="github">
   <diagram id="w4uHxJY5UsQgHHnN7Xe6" name="第 1 页">
     <mxGraphModel dx="1609" dy="1605" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -442,8 +442,36 @@
         <mxCell id="CFEKlHjBmbo5Hejxvnzg-126" value="invokeInitMethods(beanName, wrappedBean, mbd)" style="whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1490" y="1510" width="390" height="37.25" as="geometry" />
         </mxCell>
+        <mxCell id="CFEKlHjBmbo5Hejxvnzg-133" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CFEKlHjBmbo5Hejxvnzg-129" target="CFEKlHjBmbo5Hejxvnzg-132">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CFEKlHjBmbo5Hejxvnzg-134" value="AOP处理" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CFEKlHjBmbo5Hejxvnzg-133">
+          <mxGeometry x="-0.1535" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CFEKlHjBmbo5Hejxvnzg-136" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CFEKlHjBmbo5Hejxvnzg-129" target="CFEKlHjBmbo5Hejxvnzg-135">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CFEKlHjBmbo5Hejxvnzg-137" value="第九次调用后置处理器，&lt;br&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;DestructionAwareBeanPostProcessor将bean注册成可以销毁&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CFEKlHjBmbo5Hejxvnzg-136">
+          <mxGeometry x="-0.2606" relative="1" as="geometry">
+            <mxPoint y="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="CFEKlHjBmbo5Hejxvnzg-129" value="wrappedBean = applyBeanPostProcessorsAfterInitialization(wrappedBean, beanName)" style="whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1490" y="1610" width="390" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CFEKlHjBmbo5Hejxvnzg-132" value="" style="whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2095" y="1610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CFEKlHjBmbo5Hejxvnzg-139" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CFEKlHjBmbo5Hejxvnzg-135" target="CFEKlHjBmbo5Hejxvnzg-138">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CFEKlHjBmbo5Hejxvnzg-135" value="registerDisposableBeanIfNecessary(beanName, bean, mbd)" style="whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1490" y="1780" width="390" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="CFEKlHjBmbo5Hejxvnzg-138" value="DisposableBeanAdapter#filterPostProcessors" style="whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1490" y="1905" width="390" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
