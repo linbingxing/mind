@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-12T13:18:02.036Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="LWLJt4w5ncz_gAo1_ET9" version="17.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-12T13:42:05.427Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="LZ6FTmYVWbAB-RphuVca" version="17.4.3" type="github">
   <diagram id="w4uHxJY5UsQgHHnN7Xe6" name="第 1 页">
     <mxGraphModel dx="1609" dy="1605" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -181,6 +181,14 @@
         <mxCell id="CFEKlHjBmbo5Hejxvnzg-46" value="判断scope类型？" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="775" y="280" width="140" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="CFEKlHjBmbo5Hejxvnzg-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CFEKlHjBmbo5Hejxvnzg-48" target="CFEKlHjBmbo5Hejxvnzg-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CFEKlHjBmbo5Hejxvnzg-66" value="加锁，重新获取" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CFEKlHjBmbo5Hejxvnzg-65">
+          <mxGeometry x="-0.3133" y="-1" relative="1" as="geometry">
+            <mxPoint x="1" y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="CFEKlHjBmbo5Hejxvnzg-48" value="DefaultSingletonBeanRegistry&lt;br&gt;#getSingleton(beanName, ObjectFactory&amp;lt;?&amp;gt; singletonFactory)" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="715" y="450" width="260" height="60" as="geometry" />
         </mxCell>
@@ -220,6 +228,59 @@
         </mxCell>
         <mxCell id="CFEKlHjBmbo5Hejxvnzg-61" value="返回实例bean对象" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1150" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CFEKlHjBmbo5Hejxvnzg-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CFEKlHjBmbo5Hejxvnzg-64" target="CFEKlHjBmbo5Hejxvnzg-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CFEKlHjBmbo5Hejxvnzg-69" value="还是为空，&lt;br&gt;缓存正在创建beanName列表，&lt;br&gt;添加到singletonsCurrentlyInCreation" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CFEKlHjBmbo5Hejxvnzg-68">
+          <mxGeometry x="-0.2148" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CFEKlHjBmbo5Hejxvnzg-64" value="Object singletonObject = this.singletonObjects.get(beanName)" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="720" y="560" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CFEKlHjBmbo5Hejxvnzg-71" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CFEKlHjBmbo5Hejxvnzg-67" target="CFEKlHjBmbo5Hejxvnzg-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CFEKlHjBmbo5Hejxvnzg-74" value="创建bean对象" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CFEKlHjBmbo5Hejxvnzg-71">
+          <mxGeometry x="-0.303" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CFEKlHjBmbo5Hejxvnzg-67" value="beforeSingletonCreation(String beanName)" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="720" y="710" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CFEKlHjBmbo5Hejxvnzg-73" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CFEKlHjBmbo5Hejxvnzg-70" target="CFEKlHjBmbo5Hejxvnzg-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CFEKlHjBmbo5Hejxvnzg-75" value="移除正在创建beanName列表" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CFEKlHjBmbo5Hejxvnzg-73">
+          <mxGeometry x="-0.2533" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CFEKlHjBmbo5Hejxvnzg-70" value="singletonObject = singletonFactory.getObject()" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="720" y="800" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CFEKlHjBmbo5Hejxvnzg-77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CFEKlHjBmbo5Hejxvnzg-72" target="CFEKlHjBmbo5Hejxvnzg-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CFEKlHjBmbo5Hejxvnzg-78" value="加入缓存中" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CFEKlHjBmbo5Hejxvnzg-77">
+          <mxGeometry x="-0.2222" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CFEKlHjBmbo5Hejxvnzg-72" value="afterSingletonCreation(beanName)" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="720" y="900" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CFEKlHjBmbo5Hejxvnzg-86" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CFEKlHjBmbo5Hejxvnzg-76" target="CFEKlHjBmbo5Hejxvnzg-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CFEKlHjBmbo5Hejxvnzg-76" value="addSingleton(beanName, singletonObject)" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1010" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CFEKlHjBmbo5Hejxvnzg-85" value="&lt;div&gt;//加入到单例缓存池中&lt;/div&gt;&lt;div&gt;this.singletonObjects.put(beanName, singletonObject);&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;//从三级缓存中移除(针对的不是处理循环依赖的)&lt;/div&gt;&lt;div&gt;this.singletonFactories.remove(beanName);&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;//从二级缓存中移除(循环依赖的时候 早期对象存在于二级缓存)&lt;/div&gt;&lt;div&gt;this.earlySingletonObjects.remove(beanName);&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;//用来记录保存已经处理的bean&lt;/div&gt;&lt;div&gt;this.registeredSingletons.add(beanName);&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="700" y="1090" width="300" height="215" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
