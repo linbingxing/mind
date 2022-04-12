@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-12T12:24:19.789Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="Fvw1WYZsCQQ3FyshbJcH" version="17.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-12T12:27:59.123Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="dEdbUX_EqBGLxPxwJUXW" version="17.4.3" type="github">
   <diagram id="w4uHxJY5UsQgHHnN7Xe6" name="第 1 页">
     <mxGraphModel dx="1609" dy="1605" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -13,7 +13,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="CFEKlHjBmbo5Hejxvnzg-1" value="AbstractApplicationContext#refresh" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="20" y="70" width="210" height="60" as="geometry" />
+          <mxGeometry x="20" y="40" width="210" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CFEKlHjBmbo5Hejxvnzg-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CFEKlHjBmbo5Hejxvnzg-2" target="CFEKlHjBmbo5Hejxvnzg-1">
           <mxGeometry relative="1" as="geometry" />
@@ -33,10 +33,32 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="CFEKlHjBmbo5Hejxvnzg-5" value="finishBeanFactoryInitialization" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="42.5" y="230" width="165" height="60" as="geometry" />
+          <mxGeometry x="20" y="150" width="210" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CFEKlHjBmbo5Hejxvnzg-8" value="DefaultListableBeanFactory#preInstantiateSingletons" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-27.5" y="370" width="305" height="60" as="geometry" />
+        <mxCell id="CFEKlHjBmbo5Hejxvnzg-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CFEKlHjBmbo5Hejxvnzg-8" target="CFEKlHjBmbo5Hejxvnzg-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CFEKlHjBmbo5Hejxvnzg-13" value="判断是否抽象、单例、懒加载" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CFEKlHjBmbo5Hejxvnzg-12">
+          <mxGeometry x="-0.2963" relative="1" as="geometry">
+            <mxPoint y="12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CFEKlHjBmbo5Hejxvnzg-8" value="DefaultListableBeanFactory&lt;br&gt;#preInstantiateSingletons" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="15" y="250" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CFEKlHjBmbo5Hejxvnzg-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CFEKlHjBmbo5Hejxvnzg-11" target="CFEKlHjBmbo5Hejxvnzg-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CFEKlHjBmbo5Hejxvnzg-16" value="获取实例bean" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CFEKlHjBmbo5Hejxvnzg-15">
+          <mxGeometry x="-0.184" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CFEKlHjBmbo5Hejxvnzg-11" value="!bd.isAbstract() &amp;amp;&amp;amp; bd.isSingleton() &amp;amp;&amp;amp; !bd.isLazyInit()" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="360" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CFEKlHjBmbo5Hejxvnzg-14" value="AbstractBeanFactory&lt;br&gt;#getBean()" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="355" y="360" width="165" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
