@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-12T14:49:24.408Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="bBMeCURhnPqjC7hnyo6w" version="17.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-12T14:55:04.519Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="VzlNSc3IOlA8zpMs7cGt" version="17.4.3" type="github">
   <diagram id="w4uHxJY5UsQgHHnN7Xe6" name="第 1 页">
     <mxGraphModel dx="1609" dy="1605" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -409,8 +409,30 @@
         <mxCell id="CFEKlHjBmbo5Hejxvnzg-117" value="exposedObject = initializeBean(beanName, exposedObject, mbd)" style="whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1510" y="1090" width="350" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="CFEKlHjBmbo5Hejxvnzg-124" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CFEKlHjBmbo5Hejxvnzg-120" target="CFEKlHjBmbo5Hejxvnzg-123">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CFEKlHjBmbo5Hejxvnzg-125" value="第七次调用后置处理器，处理@PostConstruct注解&lt;br&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CFEKlHjBmbo5Hejxvnzg-124">
+          <mxGeometry x="-0.211" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="CFEKlHjBmbo5Hejxvnzg-120" value="invokeAwareMethods(beanName, bean);" style="whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1505" y="1240" width="360" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="CFEKlHjBmbo5Hejxvnzg-127" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CFEKlHjBmbo5Hejxvnzg-123" target="CFEKlHjBmbo5Hejxvnzg-126">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CFEKlHjBmbo5Hejxvnzg-128" value="调用初始化方法" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CFEKlHjBmbo5Hejxvnzg-127">
+          <mxGeometry x="-0.275" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" y="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CFEKlHjBmbo5Hejxvnzg-123" value="wrappedBean = applyBeanPostProcessorsBeforeInitialization(wrappedBean, beanName)" style="whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1495" y="1390" width="380" height="48.5" as="geometry" />
+        </mxCell>
+        <mxCell id="CFEKlHjBmbo5Hejxvnzg-126" value="invokeInitMethods(beanName, wrappedBean, mbd)" style="whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1490" y="1510" width="390" height="37.25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
