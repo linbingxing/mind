@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-13T03:29:39.362Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="ChhHxw_UFxDRFt08I7al" version="17.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-13T04:06:51.740Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="uGzobV_M1M0IzDL240YF" version="17.4.3" type="github">
   <diagram id="AB8aLDAtlRgpEcZsJVLx" name="第 1 页">
-    <mxGraphModel dx="782" dy="1605" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1609" dy="1605" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -998,6 +998,76 @@
         </mxCell>
         <mxCell id="FW-KuOuofcIAZ9piqEij-1" value="https://www.processon.com/view/link/5ea27ca15653bb6efc68eb8c" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="730" y="-460" width="420" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FW-KuOuofcIAZ9piqEij-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="-1030" width="350" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="FW-KuOuofcIAZ9piqEij-3" value="Nacos Server" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="275" y="-1080" width="85" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FW-KuOuofcIAZ9piqEij-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FW-KuOuofcIAZ9piqEij-4" target="FW-KuOuofcIAZ9piqEij-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FW-KuOuofcIAZ9piqEij-21" value="5、检测到服务提供方异常信息，利用udp进行消息传递，剔除实例" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FW-KuOuofcIAZ9piqEij-20">
+          <mxGeometry x="-0.2628" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FW-KuOuofcIAZ9piqEij-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="-980" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="FW-KuOuofcIAZ9piqEij-5" value="Naming Service&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="315" y="-1020" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FW-KuOuofcIAZ9piqEij-6" value="Check HeartBeat" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="-965" width="70" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="FW-KuOuofcIAZ9piqEij-7" value="Instance" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="-970" width="105" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FW-KuOuofcIAZ9piqEij-8" value="Instance" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="-930" width="105" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FW-KuOuofcIAZ9piqEij-9" value="openAPI" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="295" y="-840" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FW-KuOuofcIAZ9piqEij-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="FW-KuOuofcIAZ9piqEij-10" target="FW-KuOuofcIAZ9piqEij-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FW-KuOuofcIAZ9piqEij-17" value="3、查询服务提供方实例列表" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FW-KuOuofcIAZ9piqEij-16">
+          <mxGeometry x="-0.3067" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FW-KuOuofcIAZ9piqEij-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="FW-KuOuofcIAZ9piqEij-10" target="FW-KuOuofcIAZ9piqEij-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FW-KuOuofcIAZ9piqEij-19" value="4、定时任务，每10s去拉取一次服务提供实例列表" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FW-KuOuofcIAZ9piqEij-18">
+          <mxGeometry x="0.1574" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FW-KuOuofcIAZ9piqEij-10" value="服务消费者" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="-650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FW-KuOuofcIAZ9piqEij-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="FW-KuOuofcIAZ9piqEij-11" target="FW-KuOuofcIAZ9piqEij-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FW-KuOuofcIAZ9piqEij-13" value="1、调用openAPI，发起注册服务" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FW-KuOuofcIAZ9piqEij-12">
+          <mxGeometry x="-0.0853" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FW-KuOuofcIAZ9piqEij-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="FW-KuOuofcIAZ9piqEij-11" target="FW-KuOuofcIAZ9piqEij-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FW-KuOuofcIAZ9piqEij-15" value="2、建立心跳检测机制，检测服务状态" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FW-KuOuofcIAZ9piqEij-14">
+          <mxGeometry x="0.1468" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FW-KuOuofcIAZ9piqEij-11" value="服务提供者" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="-660" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
