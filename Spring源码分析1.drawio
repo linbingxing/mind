@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-13T07:41:39.094Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="0wkjF6W4z1MiIrohHDjB" version="17.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-13T07:42:05.994Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="aDh1fyw8dMWFf1rmzpVI" version="17.4.3" type="github">
   <diagram id="QgEiLKrSvVICeqtT1u2R" name="Page-1">
     <mxGraphModel dx="4090" dy="1605" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -18,7 +18,7 @@
         </mxCell>
         <mxCell id="Ji3ELpQpx5iokNiE7GLj-3" value="调用无参构造函数" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ji3ELpQpx5iokNiE7GLj-2">
           <mxGeometry x="-0.2" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-3" y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="H7Eiv9jxb8CIly3ZrgXF-2" value="构造函数&lt;br&gt;&lt;span style=&quot;font-size: 13.8139px&quot;&gt;AnnotationConfigApplicationContext（&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;consolas&amp;#34; ; font-size: 9.8pt&quot;&gt;Class&amp;lt;?&amp;gt;... annotatedClasses）&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
@@ -172,7 +172,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Ji3ELpQpx5iokNiE7GLj-1" value="AnnotationConfigApplicationContext" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-340" y="187.5" width="210" height="60" as="geometry" />
+          <mxGeometry x="-300" y="185" width="210" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Ji3ELpQpx5iokNiE7GLj-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ji3ELpQpx5iokNiE7GLj-4" target="Ji3ELpQpx5iokNiE7GLj-7">
           <mxGeometry relative="1" as="geometry" />
@@ -183,10 +183,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Ji3ELpQpx5iokNiE7GLj-4" value="this.reader = new AnnotatedBeanDefinitionReader(this)" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-840" y="185" width="225" height="60" as="geometry" />
+          <mxGeometry x="-680" y="185" width="225" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Ji3ELpQpx5iokNiE7GLj-7" value="AnnotationConfigUtils&lt;br&gt;.registerAnnotationConfigProcessors(this.registry)" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-1410" y="185" width="357.5" height="60" as="geometry" />
+          <mxGeometry x="-1220" y="185" width="357.5" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
