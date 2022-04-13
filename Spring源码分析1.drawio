@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-13T08:05:27.134Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="BR_wxVnQtnEmoEzAJmyU" version="17.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-13T08:05:42.906Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="HXMY4q_pjLI6YMUnWrV7" version="17.4.3" type="github">
   <diagram id="QgEiLKrSvVICeqtT1u2R" name="Page-1">
     <mxGraphModel dx="4090" dy="1605" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -334,9 +334,6 @@
         </mxCell>
         <mxCell id="Ji3ELpQpx5iokNiE7GLj-29" value="&lt;span&gt;register(annotatedClasses)&lt;/span&gt;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-300" y="340" width="210" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="Ji3ELpQpx5iokNiE7GLj-36" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8.05812pt&quot;&gt;2. 设置了bean表达式解析器&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8.05812pt&quot;&gt;3. 添加了属性编辑器的支持&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8.05812pt&quot;&gt;4. 添加了一个后置处理器：ApplicationContextAwareProcessor，此后置处理器实现了BeanPostProcessor接口&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8.05812pt&quot;&gt;5. 设置了一些忽略自动装配的接口&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8.05812pt&quot;&gt;6. 设置了一些允许自动装配的接口，并且进行了赋值操作&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8.05812pt&quot;&gt;7. 在容器中还没有XX的bean的时候，帮我们注册beanName为XX的singleton bean&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1140" y="-182.5" width="430" height="317.5" as="geometry" />
         </mxCell>
         <mxCell id="Ji3ELpQpx5iokNiE7GLj-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ji3ELpQpx5iokNiE7GLj-41" target="Ji3ELpQpx5iokNiE7GLj-56">
           <mxGeometry relative="1" as="geometry" />
