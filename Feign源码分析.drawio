@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-16T13:53:57.643Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="-UxkiifMZUcCaqN7h6dy" version="17.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-16T13:58:21.632Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="XG8JgxKNOP-jc6b0PZ_4" version="17.4.4" type="github">
   <diagram id="hINWN65_sMIN1A_LbTCs" name="第 1 页">
     <mxGraphModel dx="2436" dy="1605" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -29,6 +29,34 @@
         </mxCell>
         <mxCell id="X2OQrwyA2pg-tkAUDYB3-49" value="集成HystrixFeign" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-315" y="-890" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="X2OQrwyA2pg-tkAUDYB3-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X2OQrwyA2pg-tkAUDYB3-50" target="X2OQrwyA2pg-tkAUDYB3-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X2OQrwyA2pg-tkAUDYB3-53" value="import" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="X2OQrwyA2pg-tkAUDYB3-52">
+          <mxGeometry x="-0.1939" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X2OQrwyA2pg-tkAUDYB3-50" value="EnableFeignClients" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="294" y="-1140" width="136" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X2OQrwyA2pg-tkAUDYB3-51" value="FeignClientsRegistrar" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="279" y="-1020" width="166" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X2OQrwyA2pg-tkAUDYB3-54" value="ImportBeanDefinitionRegistrar" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="-1140" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X2OQrwyA2pg-tkAUDYB3-55" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="X2OQrwyA2pg-tkAUDYB3-51" target="X2OQrwyA2pg-tkAUDYB3-54">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="450" y="-990" as="sourcePoint" />
+            <mxPoint x="610" y="-990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X2OQrwyA2pg-tkAUDYB3-56" value="implements" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="X2OQrwyA2pg-tkAUDYB3-55">
+          <mxGeometry x="0.136" y="-3" relative="1" as="geometry">
+            <mxPoint x="-27" y="-3" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
