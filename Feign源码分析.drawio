@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-16T14:54:38.853Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="JxSJ_YGJa60uhY9YU9cJ" version="17.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-16T15:16:24.580Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="bn5fWjACJC3fD1C_5Sjb" version="17.4.4" type="github">
   <diagram id="hINWN65_sMIN1A_LbTCs" name="第 1 页">
     <mxGraphModel dx="2436" dy="1605" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -133,6 +133,14 @@
         <mxCell id="X2OQrwyA2pg-tkAUDYB3-90" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="X2OQrwyA2pg-tkAUDYB3-74" target="X2OQrwyA2pg-tkAUDYB3-89">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="X2OQrwyA2pg-tkAUDYB3-109" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X2OQrwyA2pg-tkAUDYB3-74" target="X2OQrwyA2pg-tkAUDYB3-108">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X2OQrwyA2pg-tkAUDYB3-110" value="@FeignClient如果没有配置URL，&lt;br&gt;默认走负载均衡动态代理对象" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="X2OQrwyA2pg-tkAUDYB3-109">
+          <mxGeometry x="-0.2706" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" y="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="X2OQrwyA2pg-tkAUDYB3-74" value="getTarget" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="217" y="-310" width="290" height="27.13" as="geometry" />
         </mxCell>
@@ -163,9 +171,6 @@
         <mxCell id="X2OQrwyA2pg-tkAUDYB3-84" value="@FeignClients" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="570" y="-790" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="X2OQrwyA2pg-tkAUDYB3-95" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X2OQrwyA2pg-tkAUDYB3-87" target="X2OQrwyA2pg-tkAUDYB3-94">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="X2OQrwyA2pg-tkAUDYB3-87" value="Feign.Builder builder = feign(context)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="555.5" y="-290" width="273" height="30" as="geometry" />
         </mxCell>
@@ -175,8 +180,11 @@
         <mxCell id="X2OQrwyA2pg-tkAUDYB3-93" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X2OQrwyA2pg-tkAUDYB3-91" target="X2OQrwyA2pg-tkAUDYB3-89">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="X2OQrwyA2pg-tkAUDYB3-91" value="FeignContext" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="X2OQrwyA2pg-tkAUDYB3-91" value="FeignContext" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="920" y="-342.5" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="X2OQrwyA2pg-tkAUDYB3-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="X2OQrwyA2pg-tkAUDYB3-94" target="X2OQrwyA2pg-tkAUDYB3-87">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="X2OQrwyA2pg-tkAUDYB3-94" value="Feign.Builder builder = get(context, Feign.Builder.class)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="920" y="-290" width="315" height="30" as="geometry" />
@@ -184,8 +192,73 @@
         <mxCell id="X2OQrwyA2pg-tkAUDYB3-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="X2OQrwyA2pg-tkAUDYB3-96" target="X2OQrwyA2pg-tkAUDYB3-91">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="X2OQrwyA2pg-tkAUDYB3-96" value="FeignAutoConfiguration" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="X2OQrwyA2pg-tkAUDYB3-96" value="FeignAutoConfiguration" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="1115" y="-342.5" width="145" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="X2OQrwyA2pg-tkAUDYB3-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="X2OQrwyA2pg-tkAUDYB3-100" target="X2OQrwyA2pg-tkAUDYB3-94">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X2OQrwyA2pg-tkAUDYB3-100" value="Feign.Builder" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1330" y="-292.5" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="X2OQrwyA2pg-tkAUDYB3-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="X2OQrwyA2pg-tkAUDYB3-102" target="X2OQrwyA2pg-tkAUDYB3-100">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X2OQrwyA2pg-tkAUDYB3-105" value="@Bean" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="X2OQrwyA2pg-tkAUDYB3-104">
+          <mxGeometry x="0.2513" y="2" relative="1" as="geometry">
+            <mxPoint x="13" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X2OQrwyA2pg-tkAUDYB3-102" value="FeignClientsConfiguration" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1550" y="-292.5" width="156" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="X2OQrwyA2pg-tkAUDYB3-112" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X2OQrwyA2pg-tkAUDYB3-108" target="X2OQrwyA2pg-tkAUDYB3-111">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X2OQrwyA2pg-tkAUDYB3-113" value="获取LoadBalancerFeignClient，给Feign调用" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="X2OQrwyA2pg-tkAUDYB3-112">
+          <mxGeometry x="-0.2519" y="1" relative="1" as="geometry">
+            <mxPoint x="7" y="8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X2OQrwyA2pg-tkAUDYB3-108" value="&lt;div&gt;loadBalance(builder, context, new HardCodedTarget&amp;lt;&amp;gt;(this.type,&lt;/div&gt;&lt;div&gt;&lt;span&gt;					&lt;/span&gt;this.name, url))&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="217" y="-190" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X2OQrwyA2pg-tkAUDYB3-115" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X2OQrwyA2pg-tkAUDYB3-111" target="X2OQrwyA2pg-tkAUDYB3-114">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X2OQrwyA2pg-tkAUDYB3-116" value="获取代理对象" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="X2OQrwyA2pg-tkAUDYB3-115">
+          <mxGeometry x="-0.2417" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X2OQrwyA2pg-tkAUDYB3-111" value="Client client = getOptional(context, Client.class)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="217" y="-70" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="X2OQrwyA2pg-tkAUDYB3-121" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X2OQrwyA2pg-tkAUDYB3-114" target="X2OQrwyA2pg-tkAUDYB3-120">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X2OQrwyA2pg-tkAUDYB3-114" value="targeter.target(this, builder, context，target)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="238" y="40" width="248" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="X2OQrwyA2pg-tkAUDYB3-119" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="X2OQrwyA2pg-tkAUDYB3-117" target="X2OQrwyA2pg-tkAUDYB3-111">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X2OQrwyA2pg-tkAUDYB3-117" value="&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;LoadBalancerFeignClient&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="580" y="-72.5" width="212" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="X2OQrwyA2pg-tkAUDYB3-123" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X2OQrwyA2pg-tkAUDYB3-120" target="X2OQrwyA2pg-tkAUDYB3-122">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X2OQrwyA2pg-tkAUDYB3-124" value="jdk代理对象" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="X2OQrwyA2pg-tkAUDYB3-123">
+          <mxGeometry x="-0.2333" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X2OQrwyA2pg-tkAUDYB3-120" value="ReflectiveFeign#.newInstance(target)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="237" y="142.5" width="250" height="27.5" as="geometry" />
+        </mxCell>
+        <mxCell id="X2OQrwyA2pg-tkAUDYB3-122" value="Proxy.newProxyInstance" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="236" y="220" width="250" height="26.25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
