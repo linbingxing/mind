@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-16T12:54:18.239Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="qc1ACt51vg5jcQOJe8dL" version="17.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-16T12:55:02.953Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="R8JZlgwjDBiBGDP9AQil" version="17.4.4" type="github">
   <diagram id="hINWN65_sMIN1A_LbTCs" name="第 1 页">
-    <mxGraphModel dx="782" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="782" dy="1605" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -48,6 +48,12 @@
         </mxCell>
         <mxCell id="X2OQrwyA2pg-tkAUDYB3-14" value="Http服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="220" y="1020" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X2OQrwyA2pg-tkAUDYB3-16" value="RequestBean" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="-70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X2OQrwyA2pg-tkAUDYB3-17" value="ResponseBean" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="-80" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
