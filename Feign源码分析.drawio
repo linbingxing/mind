@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-16T14:48:56.158Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="wlKQHJmgNg99F-most-k" version="17.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-16T14:50:55.609Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="kSB4qmG6x-56xUd0zJdz" version="17.4.4" type="github">
   <diagram id="hINWN65_sMIN1A_LbTCs" name="第 1 页">
     <mxGraphModel dx="2436" dy="1605" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -125,12 +125,12 @@
         <mxCell id="X2OQrwyA2pg-tkAUDYB3-72" value="getObject" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="217" y="-387.12" width="290" height="27.12" as="geometry" />
         </mxCell>
-        <mxCell id="X2OQrwyA2pg-tkAUDYB3-88" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="X2OQrwyA2pg-tkAUDYB3-87">
+        <mxCell id="X2OQrwyA2pg-tkAUDYB3-88" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="X2OQrwyA2pg-tkAUDYB3-87">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="510" y="-296" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="X2OQrwyA2pg-tkAUDYB3-90" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="X2OQrwyA2pg-tkAUDYB3-74" target="X2OQrwyA2pg-tkAUDYB3-89">
+        <mxCell id="X2OQrwyA2pg-tkAUDYB3-90" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="X2OQrwyA2pg-tkAUDYB3-74" target="X2OQrwyA2pg-tkAUDYB3-89">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="X2OQrwyA2pg-tkAUDYB3-74" value="getTarget" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
@@ -163,11 +163,11 @@
         <mxCell id="X2OQrwyA2pg-tkAUDYB3-84" value="@FeignClients" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="570" y="-790" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="X2OQrwyA2pg-tkAUDYB3-87" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="590" y="-289.995" width="120" height="60" as="geometry" />
+        <mxCell id="X2OQrwyA2pg-tkAUDYB3-87" value="Feign.Builder builder = feign(context)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="555.5" y="-290" width="273" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="X2OQrwyA2pg-tkAUDYB3-89" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="590" y="-369.995" width="120" height="60" as="geometry" />
+        <mxCell id="X2OQrwyA2pg-tkAUDYB3-89" value="applicationContext.getBean(FeignContext.class)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="557" y="-340.01" width="270" height="30.01" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
