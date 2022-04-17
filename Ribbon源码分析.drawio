@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-17T15:17:08.538Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="znmIzi2ZWB_7fTqLnhKz" version="17.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-17T15:51:13.767Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="B-DYIe--bmjbhVFbzeNn" version="17.4.4" type="github">
   <diagram id="Ss-zLGsGptUb900ayheI" name="第 1 页">
     <mxGraphModel dx="1609" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -132,6 +132,9 @@
         <mxCell id="xXIZn4CpnWQ5mHO0k7mb-35" value="LoadBalancerClient#execute" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="85" y="460" width="170" height="35" as="geometry" />
         </mxCell>
+        <mxCell id="xXIZn4CpnWQ5mHO0k7mb-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="xXIZn4CpnWQ5mHO0k7mb-38" target="xXIZn4CpnWQ5mHO0k7mb-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="xXIZn4CpnWQ5mHO0k7mb-38" value="ILoadBalancer loadBalancer = getLoadBalancer(serviceId)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="230" y="630" width="170" height="45" as="geometry" />
         </mxCell>
@@ -203,6 +206,9 @@
         </mxCell>
         <mxCell id="xXIZn4CpnWQ5mHO0k7mb-64" value="规则如下：&lt;br&gt;&lt;font color=&quot;#333333&quot;&gt;&lt;span style=&quot;font-size: 17.0845px&quot;&gt;1&lt;/span&gt;&lt;/font&gt;、&lt;span style=&quot;font-size: 12.8134pt ; font-family: &amp;#34;open sans&amp;#34; ; color: rgb(51 , 51 , 51)&quot;&gt;RoundRobinRule&lt;/span&gt;&lt;span style=&quot;font-size: 12.8134pt ; color: rgb(51 , 51 , 51)&quot;&gt;：轮询&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12.8134pt ; color: rgb(51 , 51 , 51)&quot;&gt;策略&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12.8134pt ; color: rgb(51 , 51 , 51)&quot;&gt;2、&lt;/span&gt;&lt;span style=&quot;font-size: 12.8134pt ; font-family: &amp;#34;open sans&amp;#34; ; color: rgb(51 , 51 , 51)&quot;&gt;RandomRule&lt;/span&gt;&lt;span style=&quot;font-size: 12.8134pt ; color: rgb(51 , 51 , 51)&quot;&gt;：随机策略&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12.8134pt ; color: rgb(51 , 51 , 51)&quot;&gt;3、&lt;/span&gt;&lt;span style=&quot;font-size: 12.8134pt ; font-family: &amp;#34;open sans&amp;#34; ; color: rgb(51 , 51 , 51)&quot;&gt;RetryRule&lt;/span&gt;&lt;span style=&quot;font-size: 12.8134pt ; color: rgb(51 , 51 , 51)&quot;&gt;：重试策略&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12.8134pt ; color: rgb(51 , 51 , 51)&quot;&gt;4、&lt;/span&gt;&lt;span style=&quot;font-size: 12.8134pt ; font-family: &amp;#34;open sans&amp;#34; ; color: rgb(51 , 51 , 51)&quot;&gt;BestAvailableRule&lt;/span&gt;&lt;span style=&quot;font-size: 12.8134pt ; color: rgb(51 , 51 , 51)&quot;&gt;：最⼩&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12.8134pt ; color: rgb(51 , 51 , 51)&quot;&gt;连接数策略&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12.8134pt ; color: rgb(51 , 51 , 51)&quot;&gt;5、&lt;/span&gt;&lt;span style=&quot;font-size: 12.8134pt ; font-family: &amp;#34;open sans&amp;#34; ; color: rgb(51 , 51 , 51)&quot;&gt;AvailabilityFilteringRule&lt;/span&gt;&lt;span style=&quot;font-size: 12.8134pt ; color: rgb(51 , 51 , 51)&quot;&gt;：&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12.8134pt ; color: rgb(51 , 51 , 51)&quot;&gt;可⽤过滤策略&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12.8134pt ; color: rgb(51 , 51 , 51)&quot;&gt;6、&lt;/span&gt;&lt;span style=&quot;font-size: 12.8134pt ; font-family: &amp;#34;open sans&amp;#34; ; color: rgb(51 , 51 , 51)&quot;&gt;ZoneAvoidanceRule&lt;/span&gt;&lt;span style=&quot;font-size: 12.8134pt ; color: rgb(51 , 51 , 51)&quot;&gt;：区&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12.8134pt ; color: rgb(51 , 51 , 51)&quot;&gt;域权衡策略&lt;/span&gt;&lt;span style=&quot;font-size: 12.8134pt ; color: rgb(51 , 51 , 51) ; font-weight: bold&quot;&gt;（默认策略）&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-800" y="850" width="310" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="xXIZn4CpnWQ5mHO0k7mb-65" value="&lt;span&gt;ILoadBalancer&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="255" y="747.5" width="120" height="32.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
