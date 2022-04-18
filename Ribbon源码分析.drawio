@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-18T09:07:26.712Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="QRa1DAM82j7aLfyvKDcT" version="17.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-18T09:20:05.279Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="jnh5WFd1gqWQaIogmsbw" version="17.4.4" type="github">
   <diagram id="Ss-zLGsGptUb900ayheI" name="第 1 页">
     <mxGraphModel dx="1609" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -269,6 +269,9 @@
         <mxCell id="xXIZn4CpnWQ5mHO0k7mb-78" value="context.getBean()" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="556.25" y="540" width="120" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="xXIZn4CpnWQ5mHO0k7mb-147" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="xXIZn4CpnWQ5mHO0k7mb-81" target="xXIZn4CpnWQ5mHO0k7mb-146">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="xXIZn4CpnWQ5mHO0k7mb-81" value="serverList" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="970" y="635.62" width="120" height="36.25" as="geometry" />
         </mxCell>
@@ -375,6 +378,9 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="xXIZn4CpnWQ5mHO0k7mb-156" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="xXIZn4CpnWQ5mHO0k7mb-110" target="xXIZn4CpnWQ5mHO0k7mb-155">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="xXIZn4CpnWQ5mHO0k7mb-110" value="serverListImpl.getUpdatedListOfServers()" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="665" y="1035.01" width="250" height="40" as="geometry" />
         </mxCell>
@@ -463,6 +469,68 @@
         </mxCell>
         <mxCell id="xXIZn4CpnWQ5mHO0k7mb-142" value="IPing" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2130" y="828.75" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xXIZn4CpnWQ5mHO0k7mb-154" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="xXIZn4CpnWQ5mHO0k7mb-146" target="xXIZn4CpnWQ5mHO0k7mb-153">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xXIZn4CpnWQ5mHO0k7mb-146" value="DomainExtractingServerList" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="635.62" width="180" height="36.25" as="geometry" />
+        </mxCell>
+        <mxCell id="xXIZn4CpnWQ5mHO0k7mb-149" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="xXIZn4CpnWQ5mHO0k7mb-148" target="xXIZn4CpnWQ5mHO0k7mb-146">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xXIZn4CpnWQ5mHO0k7mb-150" value="@bean" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xXIZn4CpnWQ5mHO0k7mb-149">
+          <mxGeometry x="-0.2525" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xXIZn4CpnWQ5mHO0k7mb-151" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="xXIZn4CpnWQ5mHO0k7mb-148" target="xXIZn4CpnWQ5mHO0k7mb-140">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xXIZn4CpnWQ5mHO0k7mb-152" value="@Bean" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xXIZn4CpnWQ5mHO0k7mb-151">
+          <mxGeometry x="-0.4928" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xXIZn4CpnWQ5mHO0k7mb-148" value="EurekaRibbonClientConfiguration" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1265" y="510" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xXIZn4CpnWQ5mHO0k7mb-163" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="xXIZn4CpnWQ5mHO0k7mb-153" target="xXIZn4CpnWQ5mHO0k7mb-155">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1360" y="820" />
+              <mxPoint x="1200" y="820" />
+              <mxPoint x="1200" y="1110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xXIZn4CpnWQ5mHO0k7mb-153" value="DomainExtractingServerList" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1275" y="740" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xXIZn4CpnWQ5mHO0k7mb-158" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="xXIZn4CpnWQ5mHO0k7mb-155" target="xXIZn4CpnWQ5mHO0k7mb-157">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xXIZn4CpnWQ5mHO0k7mb-159" value="从EurekaClient缓存获取实例" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xXIZn4CpnWQ5mHO0k7mb-158">
+          <mxGeometry x="-0.1939" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xXIZn4CpnWQ5mHO0k7mb-155" value="DiscoveryEnabledNIWSServerList&lt;br&gt;#getUpdatedListOfServers" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="950" y="1090" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xXIZn4CpnWQ5mHO0k7mb-161" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="xXIZn4CpnWQ5mHO0k7mb-157" target="xXIZn4CpnWQ5mHO0k7mb-160">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xXIZn4CpnWQ5mHO0k7mb-162" value="本地缓存" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xXIZn4CpnWQ5mHO0k7mb-161">
+          <mxGeometry x="-0.3037" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" y="11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xXIZn4CpnWQ5mHO0k7mb-157" value="eurekaClient.getInstancesByVipAddress" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="940" y="1190" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xXIZn4CpnWQ5mHO0k7mb-160" value="applications = this.localRegionApps.get()" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="930" y="1276" width="240" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
