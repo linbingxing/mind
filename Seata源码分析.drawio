@@ -1,1 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2022-04-18T08:15:45.411Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" version="17.4.4" etag="GfGl55W5PxAKgEBk1X6B" type="github"><diagram id="pW6KGwqnGs0sxxFgrA0n">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-04-18T13:25:08.374Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="aKt9X0ZfS4QdfjFToC09" version="17.4.4" type="github">
+  <diagram id="pW6KGwqnGs0sxxFgrA0n" name="第 1 页">
+    <mxGraphModel dx="782" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bi4NAcwm3cHcxFjPNZbn-1" value="&lt;div&gt;&lt;span style=&quot;font-size: 10.4109pt ; font-family: &amp;#34;open sans&amp;#34; ; color: rgb(51 , 51 , 51)&quot;&gt;GlobalTransactionAutoConfiguration&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="80" width="260" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
