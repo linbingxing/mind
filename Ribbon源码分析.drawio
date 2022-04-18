@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-18T08:51:40.350Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="--Au6t3mtAGeCn7C7Q3y" version="17.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-18T08:57:14.291Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="xTe17BCnogNWekglnn73" version="17.4.4" type="github">
   <diagram id="Ss-zLGsGptUb900ayheI" name="第 1 页">
     <mxGraphModel dx="1609" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -420,8 +420,25 @@
         <mxCell id="xXIZn4CpnWQ5mHO0k7mb-126" value="setupPingTask" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1050" y="900" width="120" height="35.31" as="geometry" />
         </mxCell>
+        <mxCell id="xXIZn4CpnWQ5mHO0k7mb-132" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="xXIZn4CpnWQ5mHO0k7mb-128" target="xXIZn4CpnWQ5mHO0k7mb-131">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="xXIZn4CpnWQ5mHO0k7mb-128" value="PingTask" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1050" y="994.08" width="120" height="35.92" as="geometry" />
+        </mxCell>
+        <mxCell id="xXIZn4CpnWQ5mHO0k7mb-134" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="xXIZn4CpnWQ5mHO0k7mb-131" target="xXIZn4CpnWQ5mHO0k7mb-133">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xXIZn4CpnWQ5mHO0k7mb-135" value="判断allServers是否存活&lt;br&gt;若存活，则放到upServerList" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xXIZn4CpnWQ5mHO0k7mb-134">
+          <mxGeometry x="-0.3758" relative="1" as="geometry">
+            <mxPoint x="52" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xXIZn4CpnWQ5mHO0k7mb-131" value="new Pinger(pingStrategy).runPinger()" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="992.04" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xXIZn4CpnWQ5mHO0k7mb-133" value="pingerStrategy.pingServers(ping, allServers)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1750" y="987.05" width="220" height="47.96" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
