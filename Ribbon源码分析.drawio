@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-18T08:31:25.571Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="QkqQPks321FNqCGPS5XI" version="17.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-18T08:39:49.008Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="mAP76nsvWHkiD9m7Fsyl" version="17.4.4" type="github">
   <diagram id="Ss-zLGsGptUb900ayheI" name="第 1 页">
     <mxGraphModel dx="1609" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -303,14 +303,30 @@
         <mxCell id="xXIZn4CpnWQ5mHO0k7mb-89" value="restOfInit(clientConfig)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="549.38" y="828.75" width="133.75" height="31.25" as="geometry" />
         </mxCell>
+        <mxCell id="xXIZn4CpnWQ5mHO0k7mb-111" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="xXIZn4CpnWQ5mHO0k7mb-91" target="xXIZn4CpnWQ5mHO0k7mb-110">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xXIZn4CpnWQ5mHO0k7mb-115" value="获取更新实例" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xXIZn4CpnWQ5mHO0k7mb-111">
+          <mxGeometry x="-0.2752" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="xXIZn4CpnWQ5mHO0k7mb-91" value="updateListOfServers()" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="683.13" y="927.5" width="120" height="34.38" as="geometry" />
+          <mxGeometry x="730" y="927.04" width="120" height="34.38" as="geometry" />
         </mxCell>
         <mxCell id="xXIZn4CpnWQ5mHO0k7mb-98" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="xXIZn4CpnWQ5mHO0k7mb-93" target="xXIZn4CpnWQ5mHO0k7mb-97">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="xXIZn4CpnWQ5mHO0k7mb-93" value="enableAndInitLearnNewServersFeature" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="350" y="927.04" width="230" height="35.3" as="geometry" />
+        </mxCell>
+        <mxCell id="xXIZn4CpnWQ5mHO0k7mb-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="xXIZn4CpnWQ5mHO0k7mb-97" target="xXIZn4CpnWQ5mHO0k7mb-91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xXIZn4CpnWQ5mHO0k7mb-109" value="每隔30秒自动刷新Eureka实例" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xXIZn4CpnWQ5mHO0k7mb-108">
+          <mxGeometry x="-0.2541" y="2" relative="1" as="geometry">
+            <mxPoint x="-23" y="-32" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="xXIZn4CpnWQ5mHO0k7mb-97" value="serverListUpdater.start(updateAction)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="350" y="1040" width="230" height="30.01" as="geometry" />
@@ -340,8 +356,44 @@
             <mxPoint x="1" y="13" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xXIZn4CpnWQ5mHO0k7mb-104" value="RibbonClientConfiguration" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="xXIZn4CpnWQ5mHO0k7mb-104" value="RibbonClientConfiguration" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="142.5" y="910" width="145" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xXIZn4CpnWQ5mHO0k7mb-113" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="xXIZn4CpnWQ5mHO0k7mb-110" target="xXIZn4CpnWQ5mHO0k7mb-112">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xXIZn4CpnWQ5mHO0k7mb-114" value="更新所有实例" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xXIZn4CpnWQ5mHO0k7mb-113">
+          <mxGeometry x="-0.2929" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xXIZn4CpnWQ5mHO0k7mb-110" value="serverListImpl.getUpdatedListOfServers()" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="665" y="1035.01" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xXIZn4CpnWQ5mHO0k7mb-117" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="xXIZn4CpnWQ5mHO0k7mb-112" target="xXIZn4CpnWQ5mHO0k7mb-116">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xXIZn4CpnWQ5mHO0k7mb-121" value="设置服务实例" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xXIZn4CpnWQ5mHO0k7mb-117">
+          <mxGeometry x="-0.2593" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xXIZn4CpnWQ5mHO0k7mb-112" value="updateAllServerList(servers)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="710" y="1169" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xXIZn4CpnWQ5mHO0k7mb-119" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="xXIZn4CpnWQ5mHO0k7mb-116" target="xXIZn4CpnWQ5mHO0k7mb-118">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xXIZn4CpnWQ5mHO0k7mb-120" value="将服务实例列表设置到父类的allServerList" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xXIZn4CpnWQ5mHO0k7mb-119">
+          <mxGeometry x="-0.2619" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xXIZn4CpnWQ5mHO0k7mb-116" value="setServersList(ls)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="730" y="1280" width="120" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="xXIZn4CpnWQ5mHO0k7mb-118" value="BaseLoadBalancer#setServersList" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="675" y="1390" width="230" height="31" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
